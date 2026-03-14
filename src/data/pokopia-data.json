@@ -1,0 +1,7393 @@
+{
+  "generatedAt": "2026-03-14T23:14:37.846Z",
+  "source": {
+    "sheetId": "1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA",
+    "pokedexUrl": "https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/gviz/tq?tqx=out:csv&gid=0",
+    "habitatsUrl": "https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/gviz/tq?tqx=out:csv&gid=92048572"
+  },
+  "pokemon": [
+    {
+      "id": 1,
+      "slug": "bulbasaur",
+      "name": "Bulbasaur",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Soft stuff",
+        "Cute stuff",
+        "Lots of water",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "ivysaur",
+      "name": "Ivysaur",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Soft stuff",
+        "Cute stuff",
+        "Pretty flowers",
+        "Colorful stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "venusaur",
+      "name": "Venusaur",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Soft stuff",
+        "Cute stuff",
+        "Pretty flowers",
+        "Luxury"
+      ],
+      "habitatIds": [
+        11
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "charmander",
+      "name": "Charmander",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Wooden stuff",
+        "Hard stuff",
+        "Exercise",
+        "Group activities"
+      ],
+      "habitatIds": [
+        1
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "charmeleon",
+      "name": "Charmeleon",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        17
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️"
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "charizard",
+      "name": "Charizard",
+      "specialties": [
+        "Burn",
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 7,
+      "slug": "squirtle",
+      "name": "Squirtle",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Cleanliness",
+        "Healing",
+        "Cute stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "wartortle",
+      "name": "Wartortle",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        4
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "🌧️",
+        "☁️"
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "blastoise",
+      "name": "Blastoise",
+      "specialties": [
+        "Water",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        4
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "pidgey",
+      "name": "Pidgey",
+      "specialties": [
+        "Fly",
+        "Search"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Soft stuff",
+        "Nice breezes",
+        "Watching stuff",
+        "Lots of nature",
+        "Play spaces"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "pidgeotto",
+      "name": "Pidgeotto",
+      "specialties": [
+        "Fly",
+        "Search"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Soft stuff",
+        "Nice breezes",
+        "Watching stuff",
+        "Lots of nature",
+        "Looks like food"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 12,
+      "slug": "pidgeot",
+      "name": "Pidgeot",
+      "specialties": [
+        "Chop",
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 13,
+      "slug": "oddish",
+      "name": "Oddish",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of nature",
+        "Lots of dirt",
+        "Soft stuff",
+        "Pretty flowers",
+        "Lots of water"
+      ],
+      "habitatIds": [
+        1
+      ],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "gloom",
+      "name": "Gloom",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of nature",
+        "Lots of dirt",
+        "Soft stuff",
+        "Pretty flowers",
+        "Garbage"
+      ],
+      "habitatIds": [
+        57
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "vileplume",
+      "name": "Vileplume",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 16,
+      "slug": "bellossom",
+      "name": "Bellossom",
+      "specialties": [
+        "Grow",
+        "Hype"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Pretty flowers",
+        "Play spaces",
+        "Cute stuff",
+        "Noisy stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 17,
+      "slug": "paras",
+      "name": "Paras",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Watching stuff",
+        "Lots of dirt",
+        "Looks like food"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "parasect",
+      "name": "Parasect",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 19,
+      "slug": "venonat",
+      "name": "Venonat",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 20,
+      "slug": "venomoth",
+      "name": "Venomoth",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 21,
+      "slug": "bellsprout",
+      "name": "Bellsprout",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Lots of dirt",
+        "Lots of water",
+        "Pretty flowers"
+      ],
+      "habitatIds": [
+        2
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 22,
+      "slug": "weepinbell",
+      "name": "Weepinbell",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Lots of dirt",
+        "Colorful stuff",
+        "Pretty flowers"
+      ],
+      "habitatIds": [
+        21
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "victreebel",
+      "name": "Victreebel",
+      "specialties": [
+        "Grow",
+        "Chop"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 24,
+      "slug": "slowpoke",
+      "name": "Slowpoke",
+      "specialties": [
+        "Water",
+        "Yawn"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Cleanliness",
+        "Strange stuff",
+        "Soft stuff",
+        "Healing"
+      ],
+      "habitatIds": [
+        5
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 25,
+      "slug": "slowbro",
+      "name": "Slowbro",
+      "specialties": [
+        "Water",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 26,
+      "slug": "slowking",
+      "name": "Slowking",
+      "specialties": [
+        "Water",
+        "Teleport"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Cleanliness",
+        "Strange stuff",
+        "Group activities",
+        "Healing"
+      ],
+      "habitatIds": [
+        5
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 27,
+      "slug": "magnemite",
+      "name": "Magnemite",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Metal stuff",
+        "Shiny stuff",
+        "Hard stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 28,
+      "slug": "magneton",
+      "name": "Magneton",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        85
+      ],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 29,
+      "slug": "magnezone",
+      "name": "Magnezone",
+      "specialties": [
+        "Generate",
+        "Recycle"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 30,
+      "slug": "onix",
+      "name": "Onix",
+      "specialties": [
+        "Bulldoze",
+        "Crush"
+      ],
+      "idealHabitat": "Dry",
+      "favorites": [
+        "Stone stuff",
+        "Lots of dirt",
+        "Blocky stuff",
+        "Slender objects",
+        "Exercise"
+      ],
+      "habitatIds": [
+        37
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 31,
+      "slug": "steelix",
+      "name": "Steelix",
+      "specialties": [
+        "Bulldoze",
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        13
+      ],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 32,
+      "slug": "cubone",
+      "name": "Cubone",
+      "specialties": [
+        "Build"
+      ],
+      "idealHabitat": "Dry",
+      "favorites": [
+        "Lots of dirt",
+        "Construction",
+        "Exercise",
+        "Slender objects",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 33,
+      "slug": "marowak",
+      "name": "Marowak",
+      "specialties": [
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 34,
+      "slug": "tyrogue",
+      "name": "Tyrogue",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Group activities",
+        "Fabric",
+        "Stone stuff",
+        "Round stuff"
+      ],
+      "habitatIds": [
+        18
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 35,
+      "slug": "hitmonlee",
+      "name": "Hitmonlee",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Group activities",
+        "Fabric",
+        "Stone stuff",
+        "Round stuff"
+      ],
+      "habitatIds": [
+        25
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 36,
+      "slug": "hitmonchan",
+      "name": "Hitmonchan",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Group activities",
+        "Fabric",
+        "Stone stuff",
+        "Round stuff"
+      ],
+      "habitatIds": [
+        24
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 37,
+      "slug": "hitmontop",
+      "name": "Hitmontop",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        26
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 38,
+      "slug": "koffing",
+      "name": "Koffing",
+      "specialties": [
+        "Recycle"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 39,
+      "slug": "weezing",
+      "name": "Weezing",
+      "specialties": [
+        "Recycle"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 40,
+      "slug": "tangela",
+      "name": "Tangela",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 41,
+      "slug": "tangrowth",
+      "name": "Tangrowth",
+      "specialties": [
+        "Grow",
+        "Appraise"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of nature",
+        "Complicated stuff",
+        "Letters and words",
+        "Strange stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 42,
+      "slug": "scyther",
+      "name": "Scyther",
+      "specialties": [
+        "Chop"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Nice breezes",
+        "Wooden stuff",
+        "Sharp stuff",
+        "Exercise"
+      ],
+      "habitatIds": [
+        2
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 43,
+      "slug": "scizor",
+      "name": "Scizor",
+      "specialties": [
+        "Chop"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Metal stuff",
+        "Wooden stuff",
+        "Hard stuff",
+        "Exercise"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 44,
+      "slug": "pinsir",
+      "name": "Pinsir",
+      "specialties": [
+        "Chop",
+        "Build"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Pretty flowers",
+        "Sharp stuff",
+        "Exercise"
+      ],
+      "habitatIds": [
+        2
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 45,
+      "slug": "magikarp",
+      "name": "Magikarp",
+      "specialties": [],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Group activities",
+        "Rides",
+        "Wobbly stuff"
+      ],
+      "habitatIds": [
+        185
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 46,
+      "slug": "gyarados",
+      "name": "Gyarados",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 47,
+      "slug": "ditto",
+      "name": "Ditto",
+      "specialties": [
+        "Transform"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 48,
+      "slug": "hoothoot",
+      "name": "Hoothoot",
+      "specialties": [
+        "Fly",
+        "Trade"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Soft stuff",
+        "Nice breezes",
+        "Fabric",
+        "Wobbly stuff",
+        "Watching stuff"
+      ],
+      "habitatIds": [
+        6,
+        8
+      ],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 49,
+      "slug": "noctowl",
+      "name": "Noctowl",
+      "specialties": [
+        "Fly",
+        "Trade"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Soft stuff",
+        "Nice breezes",
+        "Letters and words",
+        "Containers",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 50,
+      "slug": "heracross",
+      "name": "Heracross",
+      "specialties": [
+        "Chop",
+        "Build"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Pretty flowers",
+        "Looks like food",
+        "Exercise"
+      ],
+      "habitatIds": [
+        2
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 51,
+      "slug": "volbeat",
+      "name": "Volbeat",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        10
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 52,
+      "slug": "illumise",
+      "name": "Illumise",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Shiny stuff",
+        "Cute stuff",
+        "Group activities"
+      ],
+      "habitatIds": [
+        10
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 53,
+      "slug": "gulpin",
+      "name": "Gulpin",
+      "specialties": [
+        "Storage"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Cute stuff",
+        "Looks like food",
+        "Round stuff",
+        "Containers",
+        "Colorful stuff"
+      ],
+      "habitatIds": [
+        19
+      ],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 54,
+      "slug": "swalot",
+      "name": "Swalot",
+      "specialties": [
+        "Storage"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 55,
+      "slug": "cacnea",
+      "name": "Cacnea",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": "Dry",
+      "favorites": [
+        "Lots of nature",
+        "Pretty flowers",
+        "Cute stuff",
+        "Round stuff",
+        "Sharp stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 56,
+      "slug": "cacturne",
+      "name": "Cacturne",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        9
+      ],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 57,
+      "slug": "combee",
+      "name": "Combee",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Nice breezes",
+        "Wooden stuff",
+        "Gatherings",
+        "Group activities"
+      ],
+      "habitatIds": [
+        8
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 58,
+      "slug": "vespiquen",
+      "name": "Vespiquen",
+      "specialties": [
+        "Search",
+        "Gather Honey"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Nice breezes",
+        "Wooden stuff",
+        "Gatherings",
+        "Complicated stuff"
+      ],
+      "habitatIds": [
+        11
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 59,
+      "slug": "shellos",
+      "name": "Shellos",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Cleanliness",
+        "Colorful stuff",
+        "Containers"
+      ],
+      "habitatIds": [
+        27
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 60,
+      "slug": "gastrodon",
+      "name": "Gastrodon",
+      "specialties": [
+        "Water",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        185
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 61,
+      "slug": "drifloon",
+      "name": "Drifloon",
+      "specialties": [
+        "Dream Island"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "spooky stuff",
+        "Strange stuff",
+        "Nice breezes",
+        "Cute stuff",
+        "Round stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 62,
+      "slug": "drifblim",
+      "name": "Drifblim",
+      "specialties": [
+        "Storage",
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 63,
+      "slug": "drilbur",
+      "name": "Drilbur",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Lots of dirt",
+        "Stone stuff",
+        "Lots of nature",
+        "Watching stuff",
+        "Sharp stuff"
+      ],
+      "habitatIds": [
+        15
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 64,
+      "slug": "excadrill",
+      "name": "Excadrill",
+      "specialties": [
+        "Search",
+        "Chop"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Lots of dirt",
+        "Metal stuff",
+        "Exercise",
+        "Watching stuff",
+        "Sharp stuff"
+      ],
+      "habitatIds": [
+        15
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 65,
+      "slug": "timburr",
+      "name": "Timburr",
+      "specialties": [
+        "Build"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Construction",
+        "Wooden stuff",
+        "Slender objects",
+        "Blocky stuff"
+      ],
+      "habitatIds": [
+        3
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 66,
+      "slug": "gurdurr",
+      "name": "Gurdurr",
+      "specialties": [
+        "Build"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Construction",
+        "Metal stuff",
+        "Slender objects",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 67,
+      "slug": "conkeldurr",
+      "name": "Conkeldurr",
+      "specialties": [
+        "Build",
+        "Crush"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Construction",
+        "Stone stuff",
+        "Slender objects",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 68,
+      "slug": "litwick",
+      "name": "Litwick",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "spooky stuff",
+        "Strange stuff",
+        "Lots of fire",
+        "Wobbly stuff",
+        "Blocky stuff"
+      ],
+      "habitatIds": [
+        32
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 69,
+      "slug": "lampent",
+      "name": "Lampent",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 70,
+      "slug": "chandelure",
+      "name": "Chandelure",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        33
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 71,
+      "slug": "axew",
+      "name": "Axew",
+      "specialties": [
+        "Chop"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        29
+      ],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 72,
+      "slug": "fraxure",
+      "name": "Fraxure",
+      "specialties": [
+        "Chop"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "🌧️"
+      ]
+    },
+    {
+      "id": 73,
+      "slug": "haxorus",
+      "name": "Haxorus",
+      "specialties": [
+        "Chop",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        4
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "🌧️"
+      ]
+    },
+    {
+      "id": 74,
+      "slug": "goomy",
+      "name": "Goomy",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Luxury",
+        "Lots of nature",
+        "Cleanliness",
+        "Healing"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 75,
+      "slug": "sliggoo",
+      "name": "Sliggoo",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Luxury",
+        "Soft stuff",
+        "Cleanliness",
+        "Healing"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 76,
+      "slug": "goodra",
+      "name": "Goodra",
+      "specialties": [
+        "Water",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 77,
+      "slug": "cramorant",
+      "name": "Cramorant",
+      "specialties": [
+        "Water",
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        4
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 78,
+      "slug": "pichu",
+      "name": "Pichu",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Cute stuff",
+        "Pretty flowers",
+        "Fabric"
+      ],
+      "habitatIds": [
+        20
+      ],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 79,
+      "slug": "pikachu",
+      "name": "Pikachu",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Glass stuff",
+        "Cute stuff",
+        "Healing",
+        "Letters and words"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 80,
+      "slug": "raichu",
+      "name": "Raichu",
+      "specialties": [
+        "Generate",
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 81,
+      "slug": "zubat",
+      "name": "Zubat",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "spooky stuff",
+        "Nice breezes",
+        "Wooden stuff",
+        "Noisy stuff",
+        "Complicated stuff"
+      ],
+      "habitatIds": [
+        51
+      ],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 82,
+      "slug": "golbat",
+      "name": "Golbat",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        51
+      ],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 83,
+      "slug": "crobat",
+      "name": "Crobat",
+      "specialties": [
+        "Chop",
+        "Search"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "spooky stuff",
+        "Nice breezes",
+        "Wooden stuff",
+        "Garbage",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 84,
+      "slug": "meowth",
+      "name": "Meowth",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": "Cool",
+      "favorites": [
+        "Containers",
+        "Group activities",
+        "Shiny stuff",
+        "Glass stuff",
+        "Luxury"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 85,
+      "slug": "persian",
+      "name": "Persian",
+      "specialties": [
+        "Trade",
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 86,
+      "slug": "psyduck",
+      "name": "Psyduck",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 87,
+      "slug": "golduck",
+      "name": "Golduck",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 88,
+      "slug": "growlithe",
+      "name": "Growlithe",
+      "specialties": [
+        "Burn",
+        "Search"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Nice breezes",
+        "Letters and words",
+        "Pretty flowers"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 89,
+      "slug": "arcanine",
+      "name": "Arcanine",
+      "specialties": [
+        "Search",
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 90,
+      "slug": "farfetch-d",
+      "name": "Farfetch'd",
+      "specialties": [
+        "Chop",
+        "Build"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Soft stuff",
+        "Nice breezes",
+        "Wooden stuff",
+        "Slender objects",
+        "Exercise"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 91,
+      "slug": "grimer",
+      "name": "Grimer",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 92,
+      "slug": "muk",
+      "name": "Muk",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 93,
+      "slug": "gastly",
+      "name": "Gastly",
+      "specialties": [
+        "Trade",
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [
+        89
+      ],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 94,
+      "slug": "haunter",
+      "name": "Haunter",
+      "specialties": [
+        "Trade",
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 95,
+      "slug": "gengar",
+      "name": "Gengar",
+      "specialties": [
+        "Trade",
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 96,
+      "slug": "voltorb",
+      "name": "Voltorb",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 97,
+      "slug": "electrode",
+      "name": "Electrode",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 98,
+      "slug": "exeggcute",
+      "name": "Exeggcute",
+      "specialties": [
+        "Grow",
+        "Teleport"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of nature",
+        "Strange stuff",
+        "Gatherings",
+        "Watching stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 99,
+      "slug": "exeggutor",
+      "name": "Exeggutor",
+      "specialties": [
+        "Grow",
+        "Teleport"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 100,
+      "slug": "happiny",
+      "name": "Happiny",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [
+        "🌅",
+        "☀️",
+        "🌄",
+        "🌙"
+      ],
+      "weather": [
+        "☀️",
+        "☁️",
+        "🌧️"
+      ]
+    },
+    {
+      "id": 101,
+      "slug": "chansey",
+      "name": "Chansey",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 102,
+      "slug": "bilssey",
+      "name": "Bilssey",
+      "specialties": [
+        "Trade",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 103,
+      "slug": "elekid",
+      "name": "Elekid",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 104,
+      "slug": "electabuzz",
+      "name": "Electabuzz",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 105,
+      "slug": "electivire",
+      "name": "Electivire",
+      "specialties": [
+        "Generate",
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 106,
+      "slug": "lapras",
+      "name": "Lapras",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Cleanliness",
+        "Watching stuff",
+        "Healing"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 107,
+      "slug": "munchlax",
+      "name": "Munchlax",
+      "specialties": [
+        "Bulldoze"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 108,
+      "slug": "snorlax",
+      "name": "Snorlax",
+      "specialties": [
+        "Trade",
+        "Bulldoze",
+        "Eat"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Soft stuff",
+        "Fabric",
+        "Looks like food",
+        "Watching stuff",
+        "Strange stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 109,
+      "slug": "spinarak",
+      "name": "Spinarak",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Garbage",
+        "Rides",
+        "Colorful stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 110,
+      "slug": "ariados",
+      "name": "Ariados",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Garbage",
+        "Rides",
+        "Colorful stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 111,
+      "slug": "mareep",
+      "name": "Mareep",
+      "specialties": [
+        "Litter",
+        "Generate"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Shiny stuff",
+        "Glass stuff",
+        "Cute stuff",
+        "Fabric"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 112,
+      "slug": "flaaffy",
+      "name": "Flaaffy",
+      "specialties": [
+        "Litter",
+        "Generate"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Shiny stuff",
+        "Glass stuff",
+        "Cute stuff",
+        "Rides"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 113,
+      "slug": "ampharos",
+      "name": "Ampharos",
+      "specialties": [
+        "Trade",
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 114,
+      "slug": "azurill",
+      "name": "Azurill",
+      "specialties": [
+        "Water",
+        "Hype"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Cute stuff",
+        "Cleanliness",
+        "Healing",
+        "Rides"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 115,
+      "slug": "marill",
+      "name": "Marill",
+      "specialties": [
+        "Water",
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 116,
+      "slug": "azumarill",
+      "name": "Azumarill",
+      "specialties": [
+        "Water",
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 117,
+      "slug": "wooper",
+      "name": "Wooper",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Garbage",
+        "Lots of dirt",
+        "Stone stuff",
+        "Cleanliness",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 118,
+      "slug": "clodsire",
+      "name": "Clodsire",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 119,
+      "slug": "smeargle",
+      "name": "Smeargle",
+      "specialties": [
+        "Paint"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Soft stuff",
+        "Fabric",
+        "Strange stuff",
+        "Colorful stuff",
+        "Shiny stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 120,
+      "slug": "torchic",
+      "name": "Torchic",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Cute stuff",
+        "Containers",
+        "Pretty flowers"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 121,
+      "slug": "combusken",
+      "name": "Combusken",
+      "specialties": [
+        "Burn",
+        "Build"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Exercise",
+        "Containers",
+        "Construction"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 122,
+      "slug": "blaziken",
+      "name": "Blaziken",
+      "specialties": [
+        "Burn",
+        "Build"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Luxury",
+        "Exercise",
+        "Containers",
+        "Construction"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 123,
+      "slug": "wingull",
+      "name": "Wingull",
+      "specialties": [
+        "Water",
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 124,
+      "slug": "pelipper",
+      "name": "Pelipper",
+      "specialties": [
+        "Water",
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 125,
+      "slug": "makuhita",
+      "name": "Makuhita",
+      "specialties": [
+        "Build",
+        "Bulldoze"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Construction",
+        "Fabric",
+        "Round stuff",
+        "Wooden stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 126,
+      "slug": "hariyama",
+      "name": "Hariyama",
+      "specialties": [
+        "Build",
+        "Bulldoze"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Construction",
+        "Fabric",
+        "Round stuff",
+        "Rides"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 127,
+      "slug": "absol",
+      "name": "Absol",
+      "specialties": [
+        "Chop"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 128,
+      "slug": "piplup",
+      "name": "Piplup",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Nice breezes",
+        "Cleanliness",
+        "Containers"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 129,
+      "slug": "prinplup",
+      "name": "Prinplup",
+      "specialties": [
+        "Water",
+        "Trade"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Nice breezes",
+        "Cleanliness",
+        "Containers"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 130,
+      "slug": "empoleon",
+      "name": "Empoleon",
+      "specialties": [
+        "Water",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 131,
+      "slug": "audino",
+      "name": "Audino",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 132,
+      "slug": "trubbish",
+      "name": "Trubbish",
+      "specialties": [
+        "Recycle"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Garbage",
+        "Containers",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Gatherings"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 133,
+      "slug": "garbodor",
+      "name": "Garbodor",
+      "specialties": [
+        "Litter",
+        "Recycle"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Garbage",
+        "Containers",
+        "Complicated stuff",
+        "Shiny stuff",
+        "Gatherings"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 134,
+      "slug": "zorua",
+      "name": "Zorua",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Shiny stuff",
+        "Luxury",
+        "Glass stuff",
+        "Cute stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 135,
+      "slug": "zoroark",
+      "name": "Zoroark",
+      "specialties": [
+        "Chop",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 136,
+      "slug": "minccino",
+      "name": "Minccino",
+      "specialties": [
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 137,
+      "slug": "cinccino",
+      "name": "Cinccino",
+      "specialties": [
+        "Gather",
+        "Recycle"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 138,
+      "slug": "grubbin",
+      "name": "Grubbin",
+      "specialties": [
+        "Chop"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Electronics",
+        "Watching stuff",
+        "Lots of dirt",
+        "Containers"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 139,
+      "slug": "charjabug",
+      "name": "Charjabug",
+      "specialties": [
+        "Chop",
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 140,
+      "slug": "vikavolt",
+      "name": "Vikavolt",
+      "specialties": [
+        "Chop",
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 141,
+      "slug": "mimikyu",
+      "name": "Mimikyu",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 142,
+      "slug": "pawmi",
+      "name": "Pawmi",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Shiny stuff",
+        "Cute stuff",
+        "Glass stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 143,
+      "slug": "pawmo",
+      "name": "Pawmo",
+      "specialties": [
+        "Generate",
+        "Crush"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Shiny stuff",
+        "Exercise",
+        "Glass stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 144,
+      "slug": "pawmot",
+      "name": "Pawmot",
+      "specialties": [
+        "Generate",
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 145,
+      "slug": "tatsugiri",
+      "name": "Tatsugiri",
+      "specialties": [],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 146,
+      "slug": "ekans",
+      "name": "Ekans",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 147,
+      "slug": "arbok",
+      "name": "Arbok",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 148,
+      "slug": "cleffa",
+      "name": "Cleffa",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 149,
+      "slug": "clefairy",
+      "name": "Clefairy",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 150,
+      "slug": "clefable",
+      "name": "Clefable",
+      "specialties": [
+        "Hype",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 151,
+      "slug": "igglybuff",
+      "name": "Igglybuff",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 152,
+      "slug": "jigglypuff",
+      "name": "Jigglypuff",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 153,
+      "slug": "wigglytuff",
+      "name": "Wigglytuff",
+      "specialties": [
+        "Trade",
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 154,
+      "slug": "diglett",
+      "name": "Diglett",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Lots of dirt",
+        "Play spaces",
+        "Cute stuff",
+        "Group activities",
+        "Slender objects"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 155,
+      "slug": "dugtrio",
+      "name": "Dugtrio",
+      "specialties": [
+        "Crush",
+        "Hype"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Lots of dirt",
+        "Play spaces",
+        "Gatherings",
+        "Group activities",
+        "Slender objects"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 156,
+      "slug": "machop",
+      "name": "Machop",
+      "specialties": [
+        "Gather",
+        "Build"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Construction",
+        "Stone stuff",
+        "Hard stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 157,
+      "slug": "machoke",
+      "name": "Machoke",
+      "specialties": [
+        "Gather",
+        "Build"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Exercise",
+        "Construction",
+        "Stone stuff",
+        "Hard stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 158,
+      "slug": "machamp",
+      "name": "Machamp",
+      "specialties": [
+        "Gather",
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 159,
+      "slug": "geodude",
+      "name": "Geodude",
+      "specialties": [
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 160,
+      "slug": "graveler",
+      "name": "Graveler",
+      "specialties": [
+        "Crush"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Stone stuff",
+        "Hard stuff",
+        "spinning stuff",
+        "Round stuff",
+        "Exercise"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 161,
+      "slug": "golem",
+      "name": "Golem",
+      "specialties": [
+        "Trade",
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 162,
+      "slug": "magby",
+      "name": "Magby",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Watching stuff",
+        "Cute stuff",
+        "Wobbly stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 163,
+      "slug": "magmar",
+      "name": "Magmar",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Electronics",
+        "Hard stuff",
+        "Exercise"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 164,
+      "slug": "magmortar",
+      "name": "Magmortar",
+      "specialties": [
+        "Burn",
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 165,
+      "slug": "bonsly",
+      "name": "Bonsly",
+      "specialties": [
+        "Bulldoze"
+      ],
+      "idealHabitat": "Dry",
+      "favorites": [
+        "Stone stuff",
+        "Hard stuff",
+        "Lots of nature",
+        "Wooden stuff",
+        "Round stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 166,
+      "slug": "sudowoodo",
+      "name": "Sudowoodo",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": "Dry",
+      "favorites": [
+        "Stone stuff",
+        "Hard stuff",
+        "Lots of nature",
+        "Wooden stuff",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 167,
+      "slug": "murkrow",
+      "name": "Murkrow",
+      "specialties": [
+        "Fly",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 168,
+      "slug": "honchkrow",
+      "name": "Honchkrow",
+      "specialties": [
+        "Fly",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 169,
+      "slug": "larvitar",
+      "name": "Larvitar",
+      "specialties": [
+        "Bulldoze",
+        "Crush"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Stone stuff",
+        "Lots of dirt",
+        "Luxury",
+        "Shiny stuff",
+        "Looks like food"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 170,
+      "slug": "pupitar",
+      "name": "Pupitar",
+      "specialties": [
+        "Bulldoze",
+        "Crush"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Stone stuff",
+        "Hard stuff",
+        "Luxury",
+        "Shiny stuff",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 171,
+      "slug": "tyranitar",
+      "name": "Tyranitar",
+      "specialties": [
+        "Bulldoze",
+        "Crush"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Stone stuff",
+        "Hard stuff",
+        "Luxury",
+        "Shiny stuff",
+        "Exercise"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 172,
+      "slug": "lotad",
+      "name": "Lotad",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Lots of nature",
+        "Cleanliness",
+        "Containers",
+        "Noisy stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 173,
+      "slug": "lombre",
+      "name": "Lombre",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Lots of nature",
+        "Cleanliness",
+        "Containers",
+        "Noisy stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 174,
+      "slug": "ludicolo",
+      "name": "Ludicolo",
+      "specialties": [
+        "Water",
+        "Hype"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Lots of nature",
+        "Play spaces",
+        "Containers",
+        "Noisy stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 175,
+      "slug": "mawile",
+      "name": "Mawile",
+      "specialties": [
+        "Trade",
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 176,
+      "slug": "torkoal",
+      "name": "Torkoal",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Metal stuff",
+        "Hard stuff",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 177,
+      "slug": "kricketot",
+      "name": "Kricketot",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Noisy stuff",
+        "Colorful stuff",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 178,
+      "slug": "kricketune",
+      "name": "Kricketune",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Noisy stuff",
+        "Colorful stuff",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 179,
+      "slug": "chatot",
+      "name": "Chatot",
+      "specialties": [
+        "Hype",
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 180,
+      "slug": "riolu",
+      "name": "Riolu",
+      "specialties": [
+        "Build"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Exercise",
+        "Fabric",
+        "Construction",
+        "Gatherings",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 181,
+      "slug": "lucario",
+      "name": "Lucario",
+      "specialties": [
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 182,
+      "slug": "rotom",
+      "name": "Rotom",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Shiny stuff",
+        "Glass stuff",
+        "Noisy stuff",
+        "Group activities",
+        "Blocky stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 183,
+      "slug": "larvesta",
+      "name": "Larvesta",
+      "specialties": [
+        "Burn",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 184,
+      "slug": "volcarona",
+      "name": "Volcarona",
+      "specialties": [
+        "Burn",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 185,
+      "slug": "rowlet",
+      "name": "Rowlet",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 186,
+      "slug": "dartrix",
+      "name": "Dartrix",
+      "specialties": [
+        "Grow",
+        "Chop"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Lots of nature",
+        "Wooden stuff",
+        "Nice breezes",
+        "Slender objects",
+        "Cleanliness"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 187,
+      "slug": "decidueye",
+      "name": "Decidueye",
+      "specialties": [
+        "Grow",
+        "Chop"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 188,
+      "slug": "scorbunny",
+      "name": "Scorbunny",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Stone stuff",
+        "Soft stuff",
+        "Group activities",
+        "Sharp stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 189,
+      "slug": "raboot",
+      "name": "Raboot",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 190,
+      "slug": "cinderace",
+      "name": "Cinderace",
+      "specialties": [
+        "Burn",
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 191,
+      "slug": "skwovet",
+      "name": "Skwovet",
+      "specialties": [
+        "Search",
+        "Hype"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Soft stuff",
+        "Wooden stuff",
+        "Watching stuff",
+        "Looks like food",
+        "Round stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 192,
+      "slug": "greedent",
+      "name": "Greedent",
+      "specialties": [],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Soft stuff",
+        "Metal stuff",
+        "Group activities",
+        "Looks like food",
+        "Luxury"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 193,
+      "slug": "rolycoly",
+      "name": "Rolycoly",
+      "specialties": [
+        "Burn",
+        "Gather"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Stone stuff",
+        "Lots of fire",
+        "Hard stuff",
+        "Metal stuff",
+        "Rides"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 194,
+      "slug": "carkol",
+      "name": "Carkol",
+      "specialties": [
+        "Burn",
+        "Gather"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Stone stuff",
+        "Lots of fire",
+        "Hard stuff",
+        "Metal stuff",
+        "Rides"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 195,
+      "slug": "coalossal",
+      "name": "Coalossal",
+      "specialties": [
+        "Burn",
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 196,
+      "slug": "toxel",
+      "name": "Toxel",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 197,
+      "slug": "toxtricity",
+      "name": "Toxtricity",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 198,
+      "slug": "fidough",
+      "name": "Fidough",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Cute stuff",
+        "Watching stuff",
+        "Soft stuff",
+        "Lots of fire",
+        "Letters and words"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 199,
+      "slug": "dachsbun",
+      "name": "Dachsbun",
+      "specialties": [
+        "Trade",
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 200,
+      "slug": "charcadet",
+      "name": "Charcadet",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 201,
+      "slug": "armarouge",
+      "name": "Armarouge",
+      "specialties": [
+        "Burn",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 202,
+      "slug": "ceruledge",
+      "name": "Ceruledge",
+      "specialties": [
+        "Burn",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 203,
+      "slug": "glimmet",
+      "name": "Glimmet",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 204,
+      "slug": "glimmora",
+      "name": "Glimmora",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 205,
+      "slug": "gimmighoul",
+      "name": "Gimmighoul",
+      "specialties": [],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 206,
+      "slug": "gholdengo",
+      "name": "Gholdengo",
+      "specialties": [],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 207,
+      "slug": "vulpix",
+      "name": "Vulpix",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Soft stuff",
+        "Cute stuff",
+        "Round stuff",
+        "Pretty flowers"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 208,
+      "slug": "ninetales",
+      "name": "Ninetales",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 209,
+      "slug": "poliwag",
+      "name": "Poliwag",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 210,
+      "slug": "poliwhirl",
+      "name": "Poliwhirl",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 211,
+      "slug": "poliwrath",
+      "name": "Poliwrath",
+      "specialties": [
+        "Water",
+        "Build"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Cleanliness",
+        "Construction",
+        "Exercise",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 212,
+      "slug": "politoed",
+      "name": "Politoed",
+      "specialties": [
+        "Water",
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 213,
+      "slug": "abra",
+      "name": "Abra",
+      "specialties": [
+        "Teleport"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 214,
+      "slug": "kadabra",
+      "name": "Kadabra",
+      "specialties": [
+        "Teleport"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 215,
+      "slug": "alakazam",
+      "name": "Alakazam",
+      "specialties": [
+        "Teleport",
+        "Trade"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Strange stuff",
+        "Wobbly stuff",
+        "Metal stuff",
+        "Letters and words",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 216,
+      "slug": "mime-jr",
+      "name": "Mime Jr.",
+      "specialties": [
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 217,
+      "slug": "mr-mime",
+      "name": "Mr. Mime",
+      "specialties": [
+        "Gather",
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 218,
+      "slug": "porygon",
+      "name": "Porygon",
+      "specialties": [
+        "Recycle"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 219,
+      "slug": "porygon2",
+      "name": "Porygon2",
+      "specialties": [
+        "Recycle"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 220,
+      "slug": "porygon-z",
+      "name": "Porygon-Z",
+      "specialties": [],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 221,
+      "slug": "dratini",
+      "name": "Dratini",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Lots of fire",
+        "Cleanliness",
+        "Cute stuff",
+        "Slender objects"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 222,
+      "slug": "dragonair",
+      "name": "Dragonair",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 223,
+      "slug": "dragonite",
+      "name": "Dragonite",
+      "specialties": [
+        "Water",
+        "Fly"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of fire",
+        "Nice breezes",
+        "Cleanliness",
+        "Symbols",
+        "Pretty flowers"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 224,
+      "slug": "cyndaquil",
+      "name": "Cyndaquil",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 225,
+      "slug": "quilava",
+      "name": "Quilava",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 226,
+      "slug": "typhlosion",
+      "name": "Typhlosion",
+      "specialties": [
+        "Burn",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 227,
+      "slug": "misdreavus",
+      "name": "Misdreavus",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "spooky stuff",
+        "Strange stuff",
+        "Shiny stuff",
+        "Colorful stuff",
+        "Watching stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 228,
+      "slug": "mismagius",
+      "name": "Mismagius",
+      "specialties": [
+        "Gather",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 229,
+      "slug": "girafarig",
+      "name": "Girafarig",
+      "specialties": [
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 230,
+      "slug": "farigiraf",
+      "name": "Farigiraf",
+      "specialties": [
+        "Gather",
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 231,
+      "slug": "ralts",
+      "name": "Ralts",
+      "specialties": [
+        "Teleport"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 232,
+      "slug": "kirlia",
+      "name": "Kirlia",
+      "specialties": [
+        "Trade",
+        "Teleport"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 233,
+      "slug": "gardevoir",
+      "name": "Gardevoir",
+      "specialties": [
+        "Trade",
+        "Gather"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Strange stuff",
+        "Luxury",
+        "Healing",
+        "Watching stuff",
+        "Symbols"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 234,
+      "slug": "gallade",
+      "name": "Gallade",
+      "specialties": [
+        "Build",
+        "Teleport"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 235,
+      "slug": "plusle",
+      "name": "Plusle",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 236,
+      "slug": "minun",
+      "name": "Minun",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 237,
+      "slug": "trapinch",
+      "name": "Trapinch",
+      "specialties": [
+        "Bulldoze",
+        "Litter"
+      ],
+      "idealHabitat": "Dry",
+      "favorites": [
+        "Lots of dirt",
+        "Hard stuff",
+        "Strange stuff",
+        "Watching stuff",
+        "Exercise"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 238,
+      "slug": "vibrava",
+      "name": "Vibrava",
+      "specialties": [
+        "Fly",
+        "Bulldoze"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 239,
+      "slug": "flygon",
+      "name": "Flygon",
+      "specialties": [
+        "Fly",
+        "Bulldoze"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 240,
+      "slug": "swablu",
+      "name": "Swablu",
+      "specialties": [
+        "Litter"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Soft stuff",
+        "Nice breezes",
+        "Cute stuff",
+        "Watching stuff",
+        "Cleanliness"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 241,
+      "slug": "altaria",
+      "name": "Altaria",
+      "specialties": [
+        "Fly",
+        "Litter"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Soft stuff",
+        "Nice breezes",
+        "Cute stuff",
+        "Watching stuff",
+        "Noisy stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 242,
+      "slug": "duskull",
+      "name": "Duskull",
+      "specialties": [
+        "Gather"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "spooky stuff",
+        "Strange stuff",
+        "Rides",
+        "Glass stuff",
+        "Fabric"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 243,
+      "slug": "dusclops",
+      "name": "Dusclops",
+      "specialties": [
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 244,
+      "slug": "dusknoir",
+      "name": "Dusknoir",
+      "specialties": [
+        "Gather",
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 245,
+      "slug": "beldum",
+      "name": "Beldum",
+      "specialties": [
+        "Recycle"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 246,
+      "slug": "metang",
+      "name": "Metang",
+      "specialties": [
+        "Recycle"
+      ],
+      "idealHabitat": "Cool",
+      "favorites": [
+        "Metal stuff",
+        "Strange stuff",
+        "Hard stuff",
+        "Complicated stuff",
+        "Stone stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 247,
+      "slug": "metagross",
+      "name": "Metagross",
+      "specialties": [
+        "Crush",
+        "Recycle"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 248,
+      "slug": "snivy",
+      "name": "Snivy",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 249,
+      "slug": "servine",
+      "name": "Servine",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 250,
+      "slug": "serperior",
+      "name": "Serperior",
+      "specialties": [
+        "Grow",
+        "Litter"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 251,
+      "slug": "froakie",
+      "name": "Froakie",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Cleanliness",
+        "Watching stuff",
+        "Containers"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 252,
+      "slug": "frogadier",
+      "name": "Frogadier",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Cleanliness",
+        "Watching stuff",
+        "Exercise"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 253,
+      "slug": "greninja",
+      "name": "Greninja",
+      "specialties": [
+        "Chop",
+        "Water"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 254,
+      "slug": "dedenne",
+      "name": "Dedenne",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 255,
+      "slug": "noibat",
+      "name": "Noibat",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 256,
+      "slug": "noivern",
+      "name": "Noivern",
+      "specialties": [
+        "Fly",
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 257,
+      "slug": "rookidee",
+      "name": "Rookidee",
+      "specialties": [
+        "Chop"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Nice breezes",
+        "Shiny stuff",
+        "Containers",
+        "Slender objects",
+        "Wooden stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 258,
+      "slug": "corvisquire",
+      "name": "Corvisquire",
+      "specialties": [
+        "Chop"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Nice breezes",
+        "Shiny stuff",
+        "Containers",
+        "Slender objects",
+        "Wooden stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 259,
+      "slug": "corviknight",
+      "name": "Corviknight",
+      "specialties": [
+        "Chop",
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 260,
+      "slug": "dreepy",
+      "name": "Dreepy",
+      "specialties": [
+        "Gather",
+        "Search"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of fire",
+        "spooky stuff",
+        "Rides",
+        "Strange stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 261,
+      "slug": "drakloak",
+      "name": "Drakloak",
+      "specialties": [
+        "Gather",
+        "Search"
+      ],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of fire",
+        "spooky stuff",
+        "Rides",
+        "Strange stuff",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 262,
+      "slug": "dragapult",
+      "name": "Dragapult",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 263,
+      "slug": "sprigatito",
+      "name": "Sprigatito",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Lots of nature",
+        "Pretty flowers",
+        "Containers",
+        "Colorful stuff",
+        "Cute stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 264,
+      "slug": "floragato",
+      "name": "Floragato",
+      "specialties": [
+        "Grow",
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 265,
+      "slug": "meowscarada",
+      "name": "Meowscarada",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 266,
+      "slug": "wattrel",
+      "name": "Wattrel",
+      "specialties": [
+        "Fly",
+        "Generate"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Nice breezes",
+        "Ocean vibes",
+        "Gatherings",
+        "Complicated stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 267,
+      "slug": "kilowattrel",
+      "name": "Kilowattrel",
+      "specialties": [
+        "Fly",
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 268,
+      "slug": "tinkatink",
+      "name": "Tinkatink",
+      "specialties": [
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 269,
+      "slug": "tinkatuff",
+      "name": "Tinkatuff",
+      "specialties": [
+        "Build"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 270,
+      "slug": "tinkaton",
+      "name": "Tinkaton",
+      "specialties": [],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Cute stuff",
+        "Metal stuff",
+        "Construction",
+        "Blocky stuff",
+        "Exercise"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 271,
+      "slug": "aerodactyl",
+      "name": "Aerodactyl",
+      "specialties": [
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 272,
+      "slug": "cranidos",
+      "name": "Cranidos",
+      "specialties": [
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 273,
+      "slug": "rampardos",
+      "name": "Rampardos",
+      "specialties": [
+        "Litter",
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 274,
+      "slug": "shieldon",
+      "name": "Shieldon",
+      "specialties": [
+        "Crush"
+      ],
+      "idealHabitat": "Dry",
+      "favorites": [
+        "Stone stuff",
+        "Hard stuff",
+        "Metal stuff",
+        "Luxury",
+        "Round stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 275,
+      "slug": "bastiodon",
+      "name": "Bastiodon",
+      "specialties": [
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 276,
+      "slug": "tyrunt",
+      "name": "Tyrunt",
+      "specialties": [
+        "Litter",
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 277,
+      "slug": "tyrantrum",
+      "name": "Tyrantrum",
+      "specialties": [
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 278,
+      "slug": "amaura",
+      "name": "Amaura",
+      "specialties": [
+        "Litter",
+        "Crush"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 279,
+      "slug": "aurorus",
+      "name": "Aurorus",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 280,
+      "slug": "eevee",
+      "name": "Eevee",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Soft stuff",
+        "Stone stuff",
+        "Cute stuff",
+        "Letters and words",
+        "Group activities"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 281,
+      "slug": "vaporeon",
+      "name": "Vaporeon",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 282,
+      "slug": "jolteon",
+      "name": "Jolteon",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 283,
+      "slug": "flareon",
+      "name": "Flareon",
+      "specialties": [
+        "Gather"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 284,
+      "slug": "espeon",
+      "name": "Espeon",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 285,
+      "slug": "umbreon",
+      "name": "Umbreon",
+      "specialties": [
+        "Search"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 286,
+      "slug": "leafeon",
+      "name": "Leafeon",
+      "specialties": [
+        "Grow"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 287,
+      "slug": "glaceon",
+      "name": "Glaceon",
+      "specialties": [
+        "Trade"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 288,
+      "slug": "sylveon",
+      "name": "Sylveon",
+      "specialties": [
+        "Hype"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 289,
+      "slug": "kyogre",
+      "name": "Kyogre",
+      "specialties": [],
+      "idealHabitat": "Humid",
+      "favorites": [
+        "Lots of water",
+        "Ocean vibes",
+        "Luxury",
+        "Shiny stuff",
+        "Glass stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 290,
+      "slug": "raikou",
+      "name": "Raikou",
+      "specialties": [
+        "Generate"
+      ],
+      "idealHabitat": "Bright",
+      "favorites": [
+        "Electronics",
+        "Nice breezes",
+        "Shiny stuff",
+        "Glass stuff",
+        "Luxury"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 291,
+      "slug": "entei",
+      "name": "Entei",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 292,
+      "slug": "suicune",
+      "name": "Suicune",
+      "specialties": [
+        "Water"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 293,
+      "slug": "volcanion",
+      "name": "Volcanion",
+      "specialties": [
+        "Burn"
+      ],
+      "idealHabitat": "Warm",
+      "favorites": [
+        "Lots of fire",
+        "Lots of water",
+        "Stone stuff",
+        "Containers",
+        "Symbols"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 294,
+      "slug": "articuno",
+      "name": "Articuno",
+      "specialties": [
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 295,
+      "slug": "zapdos",
+      "name": "Zapdos",
+      "specialties": [
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 296,
+      "slug": "moltres",
+      "name": "Moltres",
+      "specialties": [
+        "Fly"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 297,
+      "slug": "lugia",
+      "name": "Lugia",
+      "specialties": [],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 298,
+      "slug": "ho-oh",
+      "name": "Ho-oh",
+      "specialties": [],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 299,
+      "slug": "mewtwo",
+      "name": "Mewtwo",
+      "specialties": [
+        "Teleport"
+      ],
+      "idealHabitat": "Dark",
+      "favorites": [
+        "Strange stuff",
+        "Watching stuff",
+        "Letters and words",
+        "Complicated stuff",
+        "Stone stuff"
+      ],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    },
+    {
+      "id": 300,
+      "slug": "mew",
+      "name": "Mew",
+      "specialties": [
+        "Teleport"
+      ],
+      "idealHabitat": null,
+      "favorites": [],
+      "habitatIds": [],
+      "timeOfDay": [],
+      "weather": []
+    }
+  ],
+  "habitats": [
+    {
+      "id": 1,
+      "slug": "1-tall-grass",
+      "name": "Tall grass",
+      "area": "Withered Wasteland",
+      "details": "4x tall grass",
+      "setup": [
+        "4x tall grass"
+      ]
+    },
+    {
+      "id": 2,
+      "slug": "2-tree-shaded-tall-grass",
+      "name": "Tree-shaded tall grass",
+      "area": "Withered Wasteland",
+      "details": "4x tall grass, 1x tree",
+      "setup": [
+        "4x tall grass",
+        "1x tree"
+      ]
+    },
+    {
+      "id": 3,
+      "slug": "3-boulder-shaded-tall-grass",
+      "name": "Boulder-shaded tall grass",
+      "area": "Withered Wasteland",
+      "details": "4x tall grass, 1x large boulder",
+      "setup": [
+        "4x tall grass",
+        "1x large boulder"
+      ]
+    },
+    {
+      "id": 4,
+      "slug": "4-hydrated-tall-grass",
+      "name": "Hydrated tall grass",
+      "area": "Withered Wasteland",
+      "details": "4x tall grass, 2x water",
+      "setup": [
+        "4x tall grass",
+        "2x water"
+      ]
+    },
+    {
+      "id": 5,
+      "slug": "5-seaside-tall-grass",
+      "name": "Seaside tall grass",
+      "area": "Withered Wasteland",
+      "details": "4x tall grass, 2x Ocean water",
+      "setup": [
+        "4x tall grass",
+        "2x Ocean water"
+      ]
+    },
+    {
+      "id": 6,
+      "slug": "6-elevated-tall-grass",
+      "name": "Elevated tall grass",
+      "area": "Withered Wasteland",
+      "details": "4x tall grass, high-up location",
+      "setup": [
+        "4x tall grass",
+        "high-up location"
+      ]
+    },
+    {
+      "id": 7,
+      "slug": "7-illuminated-tall-grass",
+      "name": "Illuminated tall grass",
+      "area": "Withered Wasteland",
+      "details": "4x tall grass, 1x lighting (any)",
+      "setup": [
+        "4x tall grass",
+        "1x lighting (any)"
+      ]
+    },
+    {
+      "id": 8,
+      "slug": "8-pretty-flower-bed",
+      "name": "Pretty flower bed",
+      "area": "Withered Wasteland",
+      "details": "4x wildflowers",
+      "setup": [
+        "4x wildflowers"
+      ]
+    },
+    {
+      "id": 9,
+      "slug": "9-tree-shaded-flower-bed",
+      "name": "Tree-shaded flower bed",
+      "area": "Withered Wasteland",
+      "details": "1x berry tree (any), 4x wildflowers",
+      "setup": [
+        "1x berry tree (any)",
+        "4x wildflowers"
+      ]
+    },
+    {
+      "id": 10,
+      "slug": "10-hydrated-flower-bed",
+      "name": "Hydrated flower bed",
+      "area": "Withered Wasteland",
+      "details": "4x wildflowers, 2x water",
+      "setup": [
+        "4x wildflowers",
+        "2x water"
+      ]
+    },
+    {
+      "id": 11,
+      "slug": "11-field-of-flowers",
+      "name": "Field of flowers",
+      "area": "Withered Wasteland",
+      "details": "8x wildflowers",
+      "setup": [
+        "8x wildflowers"
+      ]
+    },
+    {
+      "id": 12,
+      "slug": "12-elevated-flower-bed",
+      "name": "Elevated flower bed",
+      "area": "Withered Wasteland",
+      "details": "4x wildflowers, high-up location",
+      "setup": [
+        "4x wildflowers",
+        "high-up location"
+      ]
+    },
+    {
+      "id": 13,
+      "slug": "13-grave-with-flowers",
+      "name": "Grave with flowers",
+      "area": "Withered Wasteland",
+      "details": "4x wildflowers, 1x gravestone",
+      "setup": [
+        "4x wildflowers",
+        "1x gravestone"
+      ]
+    },
+    {
+      "id": 14,
+      "slug": "14-flower-garden",
+      "name": "Flower garden",
+      "area": "Withered Wasteland",
+      "details": "4x hedge (any), 4x wildflowers",
+      "setup": [
+        "4x hedge (any)",
+        "4x wildflowers"
+      ]
+    },
+    {
+      "id": 15,
+      "slug": "15-fresh-veggie-field",
+      "name": "Fresh veggie field",
+      "area": "Any",
+      "details": "8x vegetable field (any)",
+      "setup": [
+        "8x vegetable field (any)"
+      ]
+    },
+    {
+      "id": 16,
+      "slug": "16-riding-warm-updrafts",
+      "name": "Riding warm updrafts",
+      "area": "Any",
+      "details": "3x campfire",
+      "setup": [
+        "3x campfire"
+      ]
+    },
+    {
+      "id": 17,
+      "slug": "17-campsite",
+      "name": "Campsite",
+      "area": "Any",
+      "details": "1x campfire, 1x straw table, 1x straw stool",
+      "setup": [
+        "1x campfire",
+        "1x straw table",
+        "1x straw stool"
+      ]
+    },
+    {
+      "id": 18,
+      "slug": "18-training-waterfall",
+      "name": "Training waterfall",
+      "area": "Any",
+      "details": "1x seat (any), 2x water, 1x waterfall",
+      "setup": [
+        "1x seat (any)",
+        "2x water",
+        "1x waterfall"
+      ]
+    },
+    {
+      "id": 19,
+      "slug": "19-tantalizing-dining-set",
+      "name": "Tantalizing dining set",
+      "area": "Any",
+      "details": "1x seat (any), 1x table (any), 1x plated food",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 20,
+      "slug": "20-picnic-set",
+      "name": "Picnic set",
+      "area": "Withered Wasteland",
+      "details": "2x seat (any), 1x table (any), 1x picnic basket",
+      "setup": [
+        "2x seat (any)",
+        "1x table (any)",
+        "1x picnic basket"
+      ]
+    },
+    {
+      "id": 21,
+      "slug": "21-flowery-table",
+      "name": "Flowery table",
+      "area": "Any",
+      "details": "1x seat (any), 1x table (any), 1x small vase",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x small vase"
+      ]
+    },
+    {
+      "id": 22,
+      "slug": "22-bench-with-greenery",
+      "name": "Bench with greenery",
+      "area": "Any",
+      "details": "2x hedge (any), 1x seat (wide)",
+      "setup": [
+        "2x hedge (any)",
+        "1x seat (wide)"
+      ]
+    },
+    {
+      "id": 23,
+      "slug": "23-illuminated-bench",
+      "name": "Illuminated bench",
+      "area": "Any",
+      "details": "1x seat (wide), 1x streetlight (any, lit)",
+      "setup": [
+        "1x seat (wide)",
+        "1x streetlight (any",
+        "lit)"
+      ]
+    },
+    {
+      "id": 24,
+      "slug": "24-exercise-resting-spot",
+      "name": "Exercise resting spot",
+      "area": "Any",
+      "details": "1x punching bag, 1x seat (any)",
+      "setup": [
+        "1x punching bag",
+        "1x seat (any)"
+      ]
+    },
+    {
+      "id": 25,
+      "slug": "25-urgent-care",
+      "name": "Urgent care",
+      "area": "Any",
+      "details": "1x seat (any), 1x table (any), 1x first aid kit",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x first aid kit"
+      ]
+    },
+    {
+      "id": 26,
+      "slug": "26-gym-first-aid",
+      "name": "Gym first aid",
+      "area": "Any",
+      "details": "1x first aid kit, 1x punching bag, 1x table (any)",
+      "setup": [
+        "1x first aid kit",
+        "1x punching bag",
+        "1x table (any)"
+      ]
+    },
+    {
+      "id": 27,
+      "slug": "27-road-sign",
+      "name": "Road sign",
+      "area": "Any",
+      "details": "1x arrow sign, 3x Wooden path",
+      "setup": [
+        "1x arrow sign",
+        "3x Wooden path"
+      ]
+    },
+    {
+      "id": 28,
+      "slug": "28-large-luggage-carrier",
+      "name": "Large luggage carrier",
+      "area": "Any",
+      "details": "1x cart, 2x Wooden crate",
+      "setup": [
+        "1x cart",
+        "2x Wooden crate"
+      ]
+    },
+    {
+      "id": 29,
+      "slug": "29-lumberjack-s-workplace",
+      "name": "Lumberjack's workplace",
+      "area": "Any",
+      "details": "1x log chair, 1x cart, 1x log table, 1x tree stump",
+      "setup": [
+        "1x log chair",
+        "1x cart",
+        "1x log table",
+        "1x tree stump"
+      ]
+    },
+    {
+      "id": 30,
+      "slug": "30-bed-with-a-plush",
+      "name": "Bed with a plush",
+      "area": "Any",
+      "details": "1x bed (any), 1x doll (any)",
+      "setup": [
+        "1x bed (any)",
+        "1x doll (any)"
+      ]
+    },
+    {
+      "id": 31,
+      "slug": "31-gently-lit-bed",
+      "name": "Gently lit bed",
+      "area": "Any",
+      "details": "1x bed (any), 1x table (any), 1x Slender candle (lit)",
+      "setup": [
+        "1x bed (any)",
+        "1x table (any)",
+        "1x Slender candle (lit)"
+      ]
+    },
+    {
+      "id": 32,
+      "slug": "32-grave-offering",
+      "name": "Grave offering",
+      "area": "Any",
+      "details": "1x gravestone, 2x Slender candle (lit), 1x plated food",
+      "setup": [
+        "1x gravestone",
+        "2x Slender candle (lit)",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 33,
+      "slug": "33-creepy-grave-offering",
+      "name": "Creepy grave offering",
+      "area": "Any",
+      "details": "2x eerie candle, 1x gravestone, 1x plated food",
+      "setup": [
+        "2x eerie candle",
+        "1x gravestone",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 34,
+      "slug": "34-chansey-resting-area",
+      "name": "Chansey resting area",
+      "area": "Any",
+      "details": "6x hedge (any), 1x Chansey plant, 1x seat (wide)",
+      "setup": [
+        "6x hedge (any)",
+        "1x Chansey plant",
+        "1x seat (wide)"
+      ]
+    },
+    {
+      "id": 36,
+      "slug": "36-floating-in-the-shade",
+      "name": "Floating in the shade",
+      "area": "Any",
+      "details": "1x inflatable boat, 1x beach parasol, 2x water",
+      "setup": [
+        "1x inflatable boat",
+        "1x beach parasol",
+        "2x water"
+      ]
+    },
+    {
+      "id": 37,
+      "slug": "37-smooth-tall-grass",
+      "name": "Smooth tall grass",
+      "area": "Any",
+      "details": "4x Dry tall grass, 1x smooth rock",
+      "setup": [
+        "4x Dry tall grass",
+        "1x smooth rock"
+      ]
+    },
+    {
+      "id": 38,
+      "slug": "38-factory-storage",
+      "name": "Factory storage",
+      "area": "Any",
+      "details": "1x streetlight (any, lit), 1x control unit, 1x Metal drum, 1x jumbled cords",
+      "setup": [
+        "1x streetlight (any",
+        "lit)",
+        "1x control unit",
+        "1x Metal drum",
+        "1x jumbled cords"
+      ]
+    },
+    {
+      "id": 40,
+      "slug": "40-berry-feast-campsite",
+      "name": "Berry-feast campsite",
+      "area": "Any",
+      "details": "1x bonfire (lit), high-up location, 1x berry basket, 2x Castform weather charm (sun)",
+      "setup": [
+        "1x bonfire (lit)",
+        "high-up location",
+        "1x berry basket",
+        "2x Castform weather charm (sun)"
+      ]
+    },
+    {
+      "id": 41,
+      "slug": "41-rain-dance-site",
+      "name": "Rain Dance site",
+      "area": "Any",
+      "details": "2x Castiform weather charm (rain), 1x plated food",
+      "setup": [
+        "2x Castiform weather charm (rain)",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 42,
+      "slug": "42-sunny-day-site",
+      "name": "Sunny Day site",
+      "area": "Any",
+      "details": "2x Castform weather charm (sun), 1x plated food",
+      "setup": [
+        "2x Castform weather charm (sun)",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 44,
+      "slug": "44-cozy-log-handicrafts",
+      "name": "Cozy log handicrafts",
+      "area": "Any",
+      "details": "1x log chair, 1x log bed, 1x log table",
+      "setup": [
+        "1x log chair",
+        "1x log bed",
+        "1x log table"
+      ]
+    },
+    {
+      "id": 46,
+      "slug": "46-garden-terrace",
+      "name": "Garden terrace",
+      "area": "Withered Wasteland",
+      "details": "1x garden light (lit), 4x wildflowers, 1x garden table, 1x garden chair",
+      "setup": [
+        "1x garden light (lit)",
+        "4x wildflowers",
+        "1x garden table",
+        "1x garden chair"
+      ]
+    },
+    {
+      "id": 47,
+      "slug": "47-tree-shaded-snoozing-snorlax",
+      "name": "Tree-shaded snoozing Snorlax",
+      "area": "Any",
+      "details": "1x naptime bed, 1x large tree (any)",
+      "setup": [
+        "1x naptime bed",
+        "1x large tree (any)"
+      ]
+    },
+    {
+      "id": 50,
+      "slug": "50-yellow-tall-grass",
+      "name": "Yellow tall grass",
+      "area": "Bleak Beach",
+      "details": "4x yellow tall grass",
+      "setup": [
+        "4x yellow tall grass"
+      ]
+    },
+    {
+      "id": 51,
+      "slug": "51-tree-shaded-yellow-tall-grass",
+      "name": "Tree-shaded yellow tall grass",
+      "area": "Bleak Beach",
+      "details": "1x tree (any), 4x yellow tall grass",
+      "setup": [
+        "1x tree (any)",
+        "4x yellow tall grass"
+      ]
+    },
+    {
+      "id": 52,
+      "slug": "52-elevated-yellow-tall-grass",
+      "name": "Elevated yellow tall grass",
+      "area": "Bleak Beach",
+      "details": "4x yellow tall grass, high-up location",
+      "setup": [
+        "4x yellow tall grass",
+        "high-up location"
+      ]
+    },
+    {
+      "id": 53,
+      "slug": "53-hydrated-yellow-tall-grass",
+      "name": "Hydrated yellow tall grass",
+      "area": "Bleak Beach",
+      "details": "4x yellow tall grass, 2x water",
+      "setup": [
+        "4x yellow tall grass",
+        "2x water"
+      ]
+    },
+    {
+      "id": 54,
+      "slug": "54-marshy-tall-grass",
+      "name": "Marshy tall grass",
+      "area": "Bleak Beach",
+      "details": "4x yellow tall grass, 2x muddy water",
+      "setup": [
+        "4x yellow tall grass",
+        "2x muddy water"
+      ]
+    },
+    {
+      "id": 55,
+      "slug": "55-overgrowth-vending-machine",
+      "name": "Overgrowth vending machine",
+      "area": "Bleak Beach",
+      "details": "4x yellow tall grass, 1x vending machine (powered)",
+      "setup": [
+        "4x yellow tall grass",
+        "1x vending machine (powered)"
+      ]
+    },
+    {
+      "id": 56,
+      "slug": "56-breezy-flower-bed",
+      "name": "Breezy flower bed",
+      "area": "Bleak Beach",
+      "details": "4x seashore flowers",
+      "setup": [
+        "4x seashore flowers"
+      ]
+    },
+    {
+      "id": 57,
+      "slug": "57-tropical-vibes",
+      "name": "Tropical vibes",
+      "area": "Bleak Beach",
+      "details": "1x large palm tree, 4x seashore flowers",
+      "setup": [
+        "1x large palm tree",
+        "4x seashore flowers"
+      ]
+    },
+    {
+      "id": 58,
+      "slug": "58-windy-flower-bed",
+      "name": "Windy flower bed",
+      "area": "Bleak Beach",
+      "details": "1x windmill, 4x seashore flowers",
+      "setup": [
+        "1x windmill",
+        "4x seashore flowers"
+      ]
+    },
+    {
+      "id": 59,
+      "slug": "59-shaded-beach",
+      "name": "Shaded beach",
+      "area": "Bleak Beach",
+      "details": "1x large palm tree, 1x beach chair",
+      "setup": [
+        "1x large palm tree",
+        "1x beach chair"
+      ]
+    },
+    {
+      "id": 60,
+      "slug": "60-tropical-seaside",
+      "name": "Tropical seaside",
+      "area": "Bleak Beach",
+      "details": "1x large palm tree, 4x hedge (any), 2x Ocean water",
+      "setup": [
+        "1x large palm tree",
+        "4x hedge (any)",
+        "2x Ocean water"
+      ]
+    },
+    {
+      "id": 61,
+      "slug": "61-resting-spot",
+      "name": "Resting spot",
+      "area": "Any",
+      "details": "1x cardboard boxes, 1x straw bed",
+      "setup": [
+        "1x cardboard boxes",
+        "1x straw bed"
+      ]
+    },
+    {
+      "id": 62,
+      "slug": "62-perpetual-mess",
+      "name": "Perpetual mess",
+      "area": "Any",
+      "details": "1x cardboard boxes, 2x toy (any)",
+      "setup": [
+        "1x cardboard boxes",
+        "2x toy (any)"
+      ]
+    },
+    {
+      "id": 63,
+      "slug": "63-trash-collection-site",
+      "name": "Trash collection site",
+      "area": "Any",
+      "details": "1x waste bin (any), 1x sign (any), 1x Garbage bags",
+      "setup": [
+        "1x waste bin (any)",
+        "1x sign (any)",
+        "1x Garbage bags"
+      ]
+    },
+    {
+      "id": 64,
+      "slug": "64-trash-can-central",
+      "name": "Trash can central",
+      "area": "Any",
+      "details": "4x Garbage bin",
+      "setup": [
+        "4x Garbage bin"
+      ]
+    },
+    {
+      "id": 65,
+      "slug": "65-trash-disposal-site",
+      "name": "Trash disposal site",
+      "area": "Any",
+      "details": "1x utility pole, 1x Garbage bags",
+      "setup": [
+        "1x utility pole",
+        "1x Garbage bags"
+      ]
+    },
+    {
+      "id": 66,
+      "slug": "66-park-bench",
+      "name": "Park bench",
+      "area": "Any",
+      "details": "1x Garbage bin, 1x seat (wide)",
+      "setup": [
+        "1x Garbage bin",
+        "1x seat (wide)"
+      ]
+    },
+    {
+      "id": 67,
+      "slug": "67-tantalizing-restaurant",
+      "name": "Tantalizing restaurant",
+      "area": "Any",
+      "details": "1x seat (any), 1x menu board, 1x table (any), 1x plated food",
+      "setup": [
+        "1x seat (any)",
+        "1x menu board",
+        "1x table (any)",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 68,
+      "slug": "68-tableside-delivery-cart",
+      "name": "Tableside delivery cart",
+      "area": "Any",
+      "details": "2x chic chair, 1x chic table, 1x small vase, 1x push cart, 1x plated food",
+      "setup": [
+        "2x chic chair",
+        "1x chic table",
+        "1x small vase",
+        "1x push cart",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 69,
+      "slug": "69-chirp-chirp-meal",
+      "name": "Chirp-chirp meal",
+      "area": "Any",
+      "details": "1x Wooden birdhouse, 1x table (any), 1x plated food",
+      "setup": [
+        "1x Wooden birdhouse",
+        "1x table (any)",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 70,
+      "slug": "70-cafe-space",
+      "name": "Cafe space",
+      "area": "Any",
+      "details": "2x counter, 1x menu board, 1x mug, 1x seat (any), 1x potted plant (any)",
+      "setup": [
+        "2x counter",
+        "1x menu board",
+        "1x mug",
+        "1x seat (any)",
+        "1x potted plant (any)"
+      ]
+    },
+    {
+      "id": 72,
+      "slug": "72-light-up-stage",
+      "name": "Light-up stage",
+      "area": "Any",
+      "details": "2x spotlight, 1x small stage",
+      "setup": [
+        "2x spotlight",
+        "1x small stage"
+      ]
+    },
+    {
+      "id": 75,
+      "slug": "75-changing-area",
+      "name": "Changing area",
+      "area": "Any",
+      "details": "1x closet (any), 1x mirror (large)",
+      "setup": [
+        "1x closet (any)",
+        "1x mirror (large)"
+      ]
+    },
+    {
+      "id": 76,
+      "slug": "76-private-makeup-stand",
+      "name": "Private makeup stand",
+      "area": "Any",
+      "details": "2x partition (any), 1x closet (any), 1x dresser (any)",
+      "setup": [
+        "2x partition (any)",
+        "1x closet (any)",
+        "1x dresser (any)"
+      ]
+    },
+    {
+      "id": 77,
+      "slug": "77-knitting-station",
+      "name": "Knitting station",
+      "area": "Any",
+      "details": "1x seat (any), 1x table (any), 1x knitting supplies",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x knitting supplies"
+      ]
+    },
+    {
+      "id": 78,
+      "slug": "78-hot-spring-shower",
+      "name": "Hot-spring shower",
+      "area": "Any",
+      "details": "1x shower, 1x seat (any), 2x hot-spring water",
+      "setup": [
+        "1x shower",
+        "1x seat (any)",
+        "2x hot-spring water"
+      ]
+    },
+    {
+      "id": 79,
+      "slug": "79-resort-meal-prep",
+      "name": "Resort meal prep",
+      "area": "Bleak Beach",
+      "details": "1x large palm tree, 1x seat (any), 1x plated food, 1x campfire (lit)",
+      "setup": [
+        "1x large palm tree",
+        "1x seat (any)",
+        "1x plated food",
+        "1x campfire (lit)"
+      ]
+    },
+    {
+      "id": 80,
+      "slug": "80-all-packed-up",
+      "name": "All packed up",
+      "area": "Any",
+      "details": "1x cart, 2x cardboard boxes",
+      "setup": [
+        "1x cart",
+        "2x cardboard boxes"
+      ]
+    },
+    {
+      "id": 81,
+      "slug": "81-full-recovery",
+      "name": "Full recovery",
+      "area": "Any",
+      "details": "1x plain chest, 1x first aid kit, 1x bed (any)",
+      "setup": [
+        "1x plain chest",
+        "1x first aid kit",
+        "1x bed (any)"
+      ]
+    },
+    {
+      "id": 82,
+      "slug": "82-alarm-clock-sleep-zone",
+      "name": "Alarm clock sleep zone",
+      "area": "Any",
+      "details": "1x alarm clock, 1x bed (any), 1x table (any)",
+      "setup": [
+        "1x alarm clock",
+        "1x bed (any)",
+        "1x table (any)"
+      ]
+    },
+    {
+      "id": 83,
+      "slug": "83-vending-machine-break-area",
+      "name": "Vending machine break area",
+      "area": "Any",
+      "details": "1x vending machine, 1x seat (wide)",
+      "setup": [
+        "1x vending machine",
+        "1x seat (wide)"
+      ]
+    },
+    {
+      "id": 84,
+      "slug": "84-vending-machine-set",
+      "name": "Vending machine set",
+      "area": "Any",
+      "details": "1x vending machine, 1x waste bin (any)",
+      "setup": [
+        "1x vending machine",
+        "1x waste bin (any)"
+      ]
+    },
+    {
+      "id": 86,
+      "slug": "86-waterwheel-spot",
+      "name": "Waterwheel spot",
+      "area": "Any",
+      "details": "1x waterwheel, 2x water, 1x waterfall",
+      "setup": [
+        "1x waterwheel",
+        "2x water",
+        "1x waterfall"
+      ]
+    },
+    {
+      "id": 87,
+      "slug": "87-furnace-spot",
+      "name": "Furnace spot",
+      "area": "Any",
+      "details": "1x Metal drum, 1x furnace",
+      "setup": [
+        "1x Metal drum",
+        "1x furnace"
+      ]
+    },
+    {
+      "id": 88,
+      "slug": "88-dock",
+      "name": "Dock",
+      "area": "Any",
+      "details": "4x walkway, 1x streetlight (any, lit), 2x Ocean water",
+      "setup": [
+        "4x walkway",
+        "1x streetlight (any",
+        "lit)",
+        "2x Ocean water"
+      ]
+    },
+    {
+      "id": 89,
+      "slug": "89-spooky-study",
+      "name": "Spooky study",
+      "area": "Any",
+      "details": "1x bookcase, 1x chic sofa, 1x plain table, 1x Slender candle",
+      "setup": [
+        "1x bookcase",
+        "1x chic sofa",
+        "1x plain table",
+        "1x Slender candle"
+      ]
+    },
+    {
+      "id": 90,
+      "slug": "90-playing-pirate",
+      "name": "Playing pirate",
+      "area": "Any",
+      "details": "2x barrel, 1x ship's wheel, 2x cannon",
+      "setup": [
+        "2x barrel",
+        "1x ship's wheel",
+        "2x cannon"
+      ]
+    },
+    {
+      "id": 91,
+      "slug": "91-working-the-register",
+      "name": "Working the register",
+      "area": "Any",
+      "details": "1x cash register, 2x table (any)",
+      "setup": [
+        "1x cash register",
+        "2x table (any)"
+      ]
+    },
+    {
+      "id": 93,
+      "slug": "93-gourmet-s-altar",
+      "name": "Gourmet's altar",
+      "area": "Bleak Beach",
+      "details": "1x offering dish",
+      "setup": [
+        "1x offering dish"
+      ]
+    },
+    {
+      "id": 94,
+      "slug": "94-pikachu-space",
+      "name": "Pikachu space",
+      "area": "Any",
+      "details": "1x pikachu sofa, 1x pikachu doll",
+      "setup": [
+        "1x pikachu sofa",
+        "1x pikachu doll"
+      ]
+    },
+    {
+      "id": 97,
+      "slug": "97-plain-life",
+      "name": "Plain life",
+      "area": "Any",
+      "details": "1x plain bed, 1x plain sofa, 1x plain table, 1x plain lamp",
+      "setup": [
+        "1x plain bed",
+        "1x plain sofa",
+        "1x plain table",
+        "1x plain lamp"
+      ]
+    },
+    {
+      "id": 98,
+      "slug": "98-red-tall-grass",
+      "name": "Red tall grass",
+      "area": "Rocky Ridges",
+      "details": "4x red tall grass",
+      "setup": [
+        "4x red tall grass"
+      ]
+    },
+    {
+      "id": 99,
+      "slug": "99-tree-shaded-red-tall-grass",
+      "name": "Tree-shaded red tall grass",
+      "area": "Rocky Ridges",
+      "details": "1x large tree (any), 4x red tall grass",
+      "setup": [
+        "1x large tree (any)",
+        "4x red tall grass"
+      ]
+    },
+    {
+      "id": 100,
+      "slug": "100-pointy-tree-shaded-rocky-tall-grass",
+      "name": "Pointy tree-shaded rocky tall grass",
+      "area": "Rocky Ridges",
+      "details": "1x pointy tree, 4x red tall grass, 1x large boulder",
+      "setup": [
+        "1x pointy tree",
+        "4x red tall grass",
+        "1x large boulder"
+      ]
+    },
+    {
+      "id": 101,
+      "slug": "101-hydrated-red-tall-grass",
+      "name": "Hydrated red tall grass",
+      "area": "Rocky Ridges",
+      "details": "4x red tall grass, 2x water",
+      "setup": [
+        "4x red tall grass",
+        "2x water"
+      ]
+    },
+    {
+      "id": 102,
+      "slug": "102-elevated-red-tall-grass",
+      "name": "Elevated red tall grass",
+      "area": "Rocky Ridges",
+      "details": "4x red tall grass, high-up location",
+      "setup": [
+        "4x red tall grass",
+        "high-up location"
+      ]
+    },
+    {
+      "id": 103,
+      "slug": "103-grassy-training-field",
+      "name": "Grassy training field",
+      "area": "Rocky Ridges",
+      "details": "2x sandbags, 4x red tall grass",
+      "setup": [
+        "2x sandbags",
+        "4x red tall grass"
+      ]
+    },
+    {
+      "id": 104,
+      "slug": "104-graceful-flower-bed",
+      "name": "Graceful flower bed",
+      "area": "Rocky Ridges",
+      "details": "4x mountain flowers",
+      "setup": [
+        "4x mountain flowers"
+      ]
+    },
+    {
+      "id": 105,
+      "slug": "105-tree-shaded-graceful-flower-bed",
+      "name": "Tree-shaded graceful flower bed",
+      "area": "Rocky Ridges",
+      "details": "4 mountain flowers, 1x pointy tree",
+      "setup": [
+        "4 mountain flowers",
+        "1x pointy tree"
+      ]
+    },
+    {
+      "id": 106,
+      "slug": "106-hydrated-graceful-flower-bed",
+      "name": "Hydrated graceful flower bed",
+      "area": "Rocky Ridges",
+      "details": "4x mountain flowers, 2x water",
+      "setup": [
+        "4x mountain flowers",
+        "2x water"
+      ]
+    },
+    {
+      "id": 107,
+      "slug": "107-flower-garden-stump-stage",
+      "name": "Flower garden stump stage",
+      "area": "Rocky Ridges",
+      "details": "4x mountain flowers, 2x mushroom lamp, 1x tree stump (any)",
+      "setup": [
+        "4x mountain flowers",
+        "2x mushroom lamp",
+        "1x tree stump (any)"
+      ]
+    },
+    {
+      "id": 108,
+      "slug": "108-toil-in-the-soil",
+      "name": "Toil in the soil",
+      "area": "Any",
+      "details": "1x wheelbarrow, 4x vegetable field (any)",
+      "setup": [
+        "1x wheelbarrow",
+        "4x vegetable field (any)"
+      ]
+    },
+    {
+      "id": 109,
+      "slug": "109-uplifting-duckweed",
+      "name": "Uplifting duckweed",
+      "area": "Any?",
+      "details": "4x duckweed, 2x water",
+      "setup": [
+        "4x duckweed",
+        "2x water"
+      ]
+    },
+    {
+      "id": 110,
+      "slug": "110-mossy-rest-spot",
+      "name": "Mossy rest spot",
+      "area": "Any",
+      "details": "4x moss",
+      "setup": [
+        "4x moss"
+      ]
+    },
+    {
+      "id": 111,
+      "slug": "111-mossy-boulder",
+      "name": "Mossy boulder",
+      "area": "Any",
+      "details": "4x moss, 1x mossy boulder",
+      "setup": [
+        "4x moss",
+        "1x mossy boulder"
+      ]
+    },
+    {
+      "id": 112,
+      "slug": "112-mossy-hot-spring",
+      "name": "Mossy hot spring",
+      "area": "Any",
+      "details": "4x moss, 2x hot-spring water",
+      "setup": [
+        "4x moss",
+        "2x hot-spring water"
+      ]
+    },
+    {
+      "id": 113,
+      "slug": "113-open-air-bath",
+      "name": "Open-air bath",
+      "area": "Any",
+      "details": "1x hot-spring spout, 2x hot-spring water",
+      "setup": [
+        "1x hot-spring spout",
+        "2x hot-spring water"
+      ]
+    },
+    {
+      "id": 114,
+      "slug": "114-harmonious-hot-spring",
+      "name": "Harmonious hot spring",
+      "area": "Any",
+      "details": "1x hot-spring spout, 1x water basin, 2x hot-spring water",
+      "setup": [
+        "1x hot-spring spout",
+        "1x water basin",
+        "2x hot-spring water"
+      ]
+    },
+    {
+      "id": 115,
+      "slug": "115-piping-hot-lava",
+      "name": "Piping-hot lava",
+      "area": "Any",
+      "details": "1x molten rock, 2x lava",
+      "setup": [
+        "1x molten rock",
+        "2x lava"
+      ]
+    },
+    {
+      "id": 116,
+      "slug": "116-digging-and-burning",
+      "name": "Digging and burning",
+      "area": "Any",
+      "details": "1x wheelbarrow, 1x smelting furnace, 1x excavation tools",
+      "setup": [
+        "1x wheelbarrow",
+        "1x smelting furnace",
+        "1x excavation tools"
+      ]
+    },
+    {
+      "id": 117,
+      "slug": "117-clink-clang-iron-construction",
+      "name": "Clink-clang iron Construction",
+      "area": "Any",
+      "details": "3x iron beam or column, 1x wheelbarrow, 1x excavation tools, 1x sandbags",
+      "setup": [
+        "3x iron beam or column",
+        "1x wheelbarrow",
+        "1x excavation tools",
+        "1x sandbags"
+      ]
+    },
+    {
+      "id": 118,
+      "slug": "118-creepy-white-rocks",
+      "name": "Creepy white rocks",
+      "area": "Any?",
+      "details": "1x stalagmites, 4x moss, 1x Wooden crate, 1x lantern (lit)",
+      "setup": [
+        "1x stalagmites",
+        "4x moss",
+        "1x Wooden crate",
+        "1x lantern (lit)"
+      ]
+    },
+    {
+      "id": 119,
+      "slug": "119-container-snacking",
+      "name": "Container snacking",
+      "area": "Any",
+      "details": "1x barrel, 1x Wooden crate, 1x lantern (lit), 1x plated food",
+      "setup": [
+        "1x barrel",
+        "1x Wooden crate",
+        "1x lantern (lit)",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 121,
+      "slug": "121-best-bread-bakery",
+      "name": "Best bread bakery",
+      "area": "Any",
+      "details": "1x bread oven, 2x counter, 1x plated food",
+      "setup": [
+        "1x bread oven",
+        "2x counter",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 123,
+      "slug": "123-house-party",
+      "name": "House party",
+      "area": "Any",
+      "details": "1x food counter, 1x paper party cups, 1x plated food",
+      "setup": [
+        "1x food counter",
+        "1x paper party cups",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 124,
+      "slug": "124-lazy-photo-album-scrolling",
+      "name": "Lazy photo-album scrolling",
+      "area": "Any",
+      "details": "1x tablet, 1x paper party cups",
+      "setup": [
+        "1x tablet",
+        "1x paper party cups"
+      ]
+    },
+    {
+      "id": 125,
+      "slug": "125-chirping-recital",
+      "name": "Chirping recital",
+      "area": "Any",
+      "details": "1x perch, 1x standing mic",
+      "setup": [
+        "1x perch",
+        "1x standing mic"
+      ]
+    },
+    {
+      "id": 127,
+      "slug": "127-box-to-the-rhythm",
+      "name": "Box to the rhythm",
+      "area": "Any",
+      "details": "1x punching bag, 1x CD Player, 1x table (any)",
+      "setup": [
+        "1x punching bag",
+        "1x CD Player",
+        "1x table (any)"
+      ]
+    },
+    {
+      "id": 129,
+      "slug": "129-mini-museum",
+      "name": "Mini museum",
+      "area": "Any",
+      "details": "1x pedestal / exhibition stand, 3x post (any), 1x lost relic (large)",
+      "setup": [
+        "1x pedestal / exhibition stand",
+        "3x post (any)",
+        "1x lost relic (large)"
+      ]
+    },
+    {
+      "id": 130,
+      "slug": "130-refreshing-locker-room",
+      "name": "Refreshing locker room",
+      "area": "Any",
+      "details": "2x office locker, 1x punching game, 1x potted plant (any), 1x seat (wide)",
+      "setup": [
+        "2x office locker",
+        "1x punching game",
+        "1x potted plant (any)",
+        "1x seat (wide)"
+      ]
+    },
+    {
+      "id": 131,
+      "slug": "131-bronze-landmark",
+      "name": "Bronze landmark",
+      "area": "Any",
+      "details": "4x hedge (any), 1x moonlight dance statue, 1x sign",
+      "setup": [
+        "4x hedge (any)",
+        "1x moonlight dance statue",
+        "1x sign"
+      ]
+    },
+    {
+      "id": 132,
+      "slug": "132-railroad-crossing",
+      "name": "Railroad crossing",
+      "area": "Any",
+      "details": "1x railway track, 1x crossing gate",
+      "setup": [
+        "1x railway track",
+        "1x crossing gate"
+      ]
+    },
+    {
+      "id": 133,
+      "slug": "133-chef-s-kitchen",
+      "name": "Chef's kitchen",
+      "area": "Any",
+      "details": "1x cooking stove, 1x modern sink, 1x plain table, 1x stylish cooking pot, 1x cutting board, 1x plated food",
+      "setup": [
+        "1x cooking stove",
+        "1x modern sink",
+        "1x plain table",
+        "1x stylish cooking pot",
+        "1x cutting board",
+        "1x plated food"
+      ]
+    },
+    {
+      "id": 135,
+      "slug": "135-heavy-iron",
+      "name": "Heavy iron",
+      "area": "Any",
+      "details": "1x iron bed, 1x iron table, 1x iron chair, 1x lantern (lit)",
+      "setup": [
+        "1x iron bed",
+        "1x iron table",
+        "1x iron chair",
+        "1x lantern (lit)"
+      ]
+    },
+    {
+      "id": 136,
+      "slug": "136-modern-living",
+      "name": "Modern living",
+      "area": "Any",
+      "details": "1x industrial bed, 1x industrial desk, 1x industrial chair",
+      "setup": [
+        "1x industrial bed",
+        "1x industrial desk",
+        "1x industrial chair"
+      ]
+    },
+    {
+      "id": 137,
+      "slug": "137-pink-tall-grass",
+      "name": "Pink tall grass",
+      "area": "Sparkling Skylands",
+      "details": "4x pink tall grass",
+      "setup": [
+        "4x pink tall grass"
+      ]
+    },
+    {
+      "id": 138,
+      "slug": "138-tree-shaded-pink-tall-grass",
+      "name": "Tree-shaded pink tall grass",
+      "area": "Sparkling Skylands",
+      "details": "1x tree (any), 4x pink tall grass",
+      "setup": [
+        "1x tree (any)",
+        "4x pink tall grass"
+      ]
+    },
+    {
+      "id": 139,
+      "slug": "139-hydrated-pink-tall-grass",
+      "name": "Hydrated pink tall grass",
+      "area": "Sparkling Skylands",
+      "details": "4x pink tall grass, 2x water",
+      "setup": [
+        "4x pink tall grass",
+        "2x water"
+      ]
+    },
+    {
+      "id": 140,
+      "slug": "140-elevated-pink-tall-grass",
+      "name": "Elevated pink tall grass",
+      "area": "Sparkling Skylands",
+      "details": "4x pink tall grass, high-up location",
+      "setup": [
+        "4x pink tall grass",
+        "high-up location"
+      ]
+    },
+    {
+      "id": 141,
+      "slug": "141-concrete-pipe-secret-base",
+      "name": "Concrete pipe secret base",
+      "area": "Any",
+      "details": "3x concrete pipe, 4x tall grass (any)",
+      "setup": [
+        "3x concrete pipe",
+        "4x tall grass (any)"
+      ]
+    },
+    {
+      "id": 142,
+      "slug": "142-fluffy-flower-bed",
+      "name": "Fluffy flower bed",
+      "area": "Sparkling Skylands",
+      "details": "4x skyland flowers",
+      "setup": [
+        "4x skyland flowers"
+      ]
+    },
+    {
+      "id": 143,
+      "slug": "143-tree-shaded-fluffy-flower-bed",
+      "name": "Tree-shaded fluffy flower bed",
+      "area": "Sparkling Skylands",
+      "details": "1x tree (any), 4x skyland flowers",
+      "setup": [
+        "1x tree (any)",
+        "4x skyland flowers"
+      ]
+    },
+    {
+      "id": 144,
+      "slug": "144-hydrated-fluffy-flower-bed",
+      "name": "Hydrated fluffy flower bed",
+      "area": "Sparkling Skylands",
+      "details": "4x skyland flowers, 2x water",
+      "setup": [
+        "4x skyland flowers",
+        "2x water"
+      ]
+    },
+    {
+      "id": 145,
+      "slug": "145-waterside-dinghy",
+      "name": "Waterside dinghy",
+      "area": "Any",
+      "details": "1x canoe, 2x duckweed, 2x water, 1x high-up location",
+      "setup": [
+        "1x canoe",
+        "2x duckweed",
+        "2x water",
+        "1x high-up location"
+      ]
+    },
+    {
+      "id": 147,
+      "slug": "147-birdsong-garden",
+      "name": "Birdsong garden",
+      "area": "Sparkling Skylands",
+      "details": "1x stylish hedge, 1x Wooden birdhouse",
+      "setup": [
+        "1x stylish hedge",
+        "1x Wooden birdhouse"
+      ]
+    },
+    {
+      "id": 148,
+      "slug": "148-simple-bathroom",
+      "name": "Simple bathroom",
+      "area": "Any",
+      "details": "1x shower, 1x bathtub",
+      "setup": [
+        "1x shower",
+        "1x bathtub"
+      ]
+    },
+    {
+      "id": 150,
+      "slug": "150-fireplace-nap-spot",
+      "name": "Fireplace nap spot",
+      "area": "Any",
+      "details": "1x stone fireplace, 1x seat (wide)",
+      "setup": [
+        "1x stone fireplace",
+        "1x seat (wide)"
+      ]
+    },
+    {
+      "id": 151,
+      "slug": "151-surging-psychic-power",
+      "name": "Surging psychic power",
+      "area": "Any",
+      "details": "1x simple cushion, 1x crystal ball",
+      "setup": [
+        "1x simple cushion",
+        "1x crystal ball"
+      ]
+    },
+    {
+      "id": 153,
+      "slug": "153-trash-site-tv",
+      "name": "Trash site TV",
+      "area": "Any",
+      "details": "2x Garbage bags, 1x television",
+      "setup": [
+        "2x Garbage bags",
+        "1x television"
+      ]
+    },
+    {
+      "id": 156,
+      "slug": "156-sewer-hole-inspection",
+      "name": "Sewer-hole inspection",
+      "area": "Any",
+      "details": "1x iron pipes, 1x sewer-hole cover, 1x excavation tools, 1x traffic cone",
+      "setup": [
+        "1x iron pipes",
+        "1x sewer-hole cover",
+        "1x excavation tools",
+        "1x traffic cone"
+      ]
+    },
+    {
+      "id": 157,
+      "slug": "157-spotless-washing-station",
+      "name": "Spotless washing station",
+      "area": "Any",
+      "details": "1x towel rack, 1x wall mirror, 1x sink",
+      "setup": [
+        "1x towel rack",
+        "1x wall mirror",
+        "1x sink"
+      ]
+    },
+    {
+      "id": 159,
+      "slug": "159-study-area",
+      "name": "Study area",
+      "area": "Any",
+      "details": "1x bookcase, 1x pencil holder, 1x seat (any), 1x table (any)",
+      "setup": [
+        "1x bookcase",
+        "1x pencil holder",
+        "1x seat (any)",
+        "1x table (any)"
+      ]
+    },
+    {
+      "id": 160,
+      "slug": "160-rhythmic-living-room",
+      "name": "Rhythmic living room",
+      "area": "Any",
+      "details": "2x speaker, 2x television, 4x music mat (any)",
+      "setup": [
+        "2x speaker",
+        "2x television",
+        "4x music mat (any)"
+      ]
+    },
+    {
+      "id": 164,
+      "slug": "164-game-corner-battle-zone",
+      "name": "Game Corner battle zone",
+      "area": "Any",
+      "details": "2x arcade machine (powered), 2x seat (any)",
+      "setup": [
+        "2x arcade machine (powered)",
+        "2x seat (any)"
+      ]
+    },
+    {
+      "id": 165,
+      "slug": "165-playland",
+      "name": "Playland",
+      "area": "Any",
+      "details": "1x slide, 1x toy (any)",
+      "setup": [
+        "1x slide",
+        "1x toy (any)"
+      ]
+    },
+    {
+      "id": 166,
+      "slug": "166-work-desk",
+      "name": "Work desk",
+      "area": "Any",
+      "details": "1x office desk, 1x mug, 1x laptop, 1x office chair",
+      "setup": [
+        "1x office desk",
+        "1x mug",
+        "1x laptop",
+        "1x office chair"
+      ]
+    },
+    {
+      "id": 167,
+      "slug": "167-office-storeroom",
+      "name": "Office storeroom",
+      "area": "Any",
+      "details": "1x office shelf, 1x cardboard boxes, 1x step stool",
+      "setup": [
+        "1x office shelf",
+        "1x cardboard boxes",
+        "1x step stool"
+      ]
+    },
+    {
+      "id": 168,
+      "slug": "168-experiment-space",
+      "name": "Experiment space",
+      "area": "Any",
+      "details": "1x science experiment, 1x microscope, 1x papers",
+      "setup": [
+        "1x science experiment",
+        "1x microscope",
+        "1x papers"
+      ]
+    },
+    {
+      "id": 169,
+      "slug": "169-professor-s-apprentice-program",
+      "name": "Professor's apprentice program",
+      "area": "Any",
+      "details": "1x whiteboard, 1x table (any), 1x jumbled cords, 1x laptop",
+      "setup": [
+        "1x whiteboard",
+        "1x table (any)",
+        "1x jumbled cords",
+        "1x laptop"
+      ]
+    },
+    {
+      "id": 170,
+      "slug": "170-researcher-s-desk",
+      "name": "Researcher's desk",
+      "area": "Any",
+      "details": "1x computer, 1x science experiment, 1x table (any)",
+      "setup": [
+        "1x computer",
+        "1x science experiment",
+        "1x table (any)"
+      ]
+    },
+    {
+      "id": 171,
+      "slug": "171-public-reading-material",
+      "name": "Public reading material",
+      "area": "Any",
+      "details": "1x magazine rack, 1x newspaper",
+      "setup": [
+        "1x magazine rack",
+        "1x newspaper"
+      ]
+    },
+    {
+      "id": 172,
+      "slug": "172-heart-pounding-surprise-box",
+      "name": "Heart-pounding surprise box",
+      "area": "Any",
+      "details": "2x spotlight, 1x boo-in-the-box, 1x big drum",
+      "setup": [
+        "2x spotlight",
+        "1x boo-in-the-box",
+        "1x big drum"
+      ]
+    },
+    {
+      "id": 173,
+      "slug": "173-prank-button",
+      "name": "Prank button",
+      "area": "Any",
+      "details": "1x floor switch, 1x boo-in-the-box",
+      "setup": [
+        "1x floor switch",
+        "1x boo-in-the-box"
+      ]
+    },
+    {
+      "id": 174,
+      "slug": "174-picturesque-photo-cutout-board",
+      "name": "Picturesque photo cutout board",
+      "area": "Any",
+      "details": "1x photo cutout board, 2x spotlight, high-up location",
+      "setup": [
+        "1x photo cutout board",
+        "2x spotlight",
+        "high-up location"
+      ]
+    },
+    {
+      "id": 175,
+      "slug": "175-tire-park",
+      "name": "Tire park",
+      "area": "Any",
+      "details": "1x slide, 2x tire toy, 1x tires",
+      "setup": [
+        "1x slide",
+        "2x tire toy",
+        "1x tires"
+      ]
+    },
+    {
+      "id": 176,
+      "slug": "176-nature-s-market",
+      "name": "Nature's market",
+      "area": "Any",
+      "details": "1x tree (any), 1x large boulder, 2x table (any), 1x cash register",
+      "setup": [
+        "1x tree (any)",
+        "1x large boulder",
+        "2x table (any)",
+        "1x cash register"
+      ]
+    },
+    {
+      "id": 177,
+      "slug": "177-construction-site-generator",
+      "name": "Construction-site generator",
+      "area": "Any",
+      "details": "1x furnace, 2x iron scaffold, 1x iron pipes",
+      "setup": [
+        "1x furnace",
+        "2x iron scaffold",
+        "1x iron pipes"
+      ]
+    },
+    {
+      "id": 178,
+      "slug": "178-dojo-training",
+      "name": "Dojo training",
+      "area": "Any",
+      "details": "2x hanging scroll, 2x strength rock",
+      "setup": [
+        "2x hanging scroll",
+        "2x strength rock"
+      ]
+    },
+    {
+      "id": 179,
+      "slug": "179-evil-organization-hq",
+      "name": "Evil organization HQ",
+      "area": "Any",
+      "details": "1x Team Rocket wall hanging, 1x Luxury sofa, 2x potted plant (any)",
+      "setup": [
+        "1x Team Rocket wall hanging",
+        "1x Luxury sofa",
+        "2x potted plant (any)"
+      ]
+    },
+    {
+      "id": 180,
+      "slug": "180-nine-flames",
+      "name": "Nine flames",
+      "area": "Any",
+      "details": "9x firepit",
+      "setup": [
+        "9x firepit"
+      ]
+    },
+    {
+      "id": 181,
+      "slug": "181-plush-central",
+      "name": "Plush central",
+      "area": "Any",
+      "details": "1x arcanine doll, 1x dragonite doll, 1x pikachu doll, 1x eevee doll",
+      "setup": [
+        "1x arcanine doll",
+        "1x dragonite doll",
+        "1x pikachu doll",
+        "1x eevee doll"
+      ]
+    },
+    {
+      "id": 184,
+      "slug": "184-fishing-pond",
+      "name": "Fishing pond",
+      "area": "Any",
+      "details": "1x fishing rod, 1x seat (any), 1x water",
+      "setup": [
+        "1x fishing rod",
+        "1x seat (any)",
+        "1x water"
+      ]
+    },
+    {
+      "id": 185,
+      "slug": "185-ocean-fishing-spot",
+      "name": "Ocean fishing spot",
+      "area": "Any",
+      "details": "1x fishing rod, 1x seat (any), 1x Ocean water",
+      "setup": [
+        "1x fishing rod",
+        "1x seat (any)",
+        "1x Ocean water"
+      ]
+    },
+    {
+      "id": 186,
+      "slug": "186-marsh-fishing-spot",
+      "name": "Marsh fishing spot",
+      "area": "Any",
+      "details": "1x fishing rod, 1x seat (any), 1x muddy water",
+      "setup": [
+        "1x fishing rod",
+        "1x seat (any)",
+        "1x muddy water"
+      ]
+    },
+    {
+      "id": 188,
+      "slug": "188-magma-fishing-spot",
+      "name": "Magma fishing spot",
+      "area": "Any",
+      "details": "1x fishing rod, 1x seat (any), 1x lava",
+      "setup": [
+        "1x fishing rod",
+        "1x seat (any)",
+        "1x lava"
+      ]
+    },
+    {
+      "id": 190,
+      "slug": "190-low-key-rock-stage",
+      "name": "Low-key rock stage",
+      "area": "Any",
+      "details": "2x speaker, 1x small stage (powered), 1x cool bass guitar, 1x standing mic",
+      "setup": [
+        "2x speaker",
+        "1x small stage (powered)",
+        "1x cool bass guitar",
+        "1x standing mic"
+      ]
+    },
+    {
+      "id": 191,
+      "slug": "191-malicious-knight-s-shrine",
+      "name": "Malicious knight's shrine",
+      "area": "Any",
+      "details": "1x pedestal / exhibition stand, 1x malicious armor, 2x stepping stones, 2x firepit (lit)",
+      "setup": [
+        "1x pedestal / exhibition stand",
+        "1x malicious armor",
+        "2x stepping stones",
+        "2x firepit (lit)"
+      ]
+    },
+    {
+      "id": 193,
+      "slug": "193-wing-fossil-display",
+      "name": "Wing Fossil disPlay",
+      "area": "Any",
+      "details": "1x pedestal / exhibition stand, 1x wing fossil (head) 1x wing fossil (right wing), 1x wing fossil (left wing), 1x wing fossil (body), 1x wing fossil (tail)",
+      "setup": [
+        "1x pedestal / exhibition stand",
+        "1x wing fossil (head) 1x wing fossil (right wing)",
+        "1x wing fossil (left wing)",
+        "1x wing fossil (body)",
+        "1x wing fossil (tail)"
+      ]
+    },
+    {
+      "id": 195,
+      "slug": "195-headbutt-fossil-display",
+      "name": "Headbutt Fossil disPlay",
+      "area": "Any",
+      "details": "1x pedestal / exhibition stand, 1x headbutt fossil (head), 1x headbutt fossil (body), 1x headbutt fossil (tail)",
+      "setup": [
+        "1x pedestal / exhibition stand",
+        "1x headbutt fossil (head)",
+        "1x headbutt fossil (body)",
+        "1x headbutt fossil (tail)"
+      ]
+    },
+    {
+      "id": 196,
+      "slug": "196-armor-fossil-display",
+      "name": "Armor Fossil disPlay",
+      "area": "Any",
+      "details": "1x pedestal / exhibition stand, 1x armor fossil",
+      "setup": [
+        "1x pedestal / exhibition stand",
+        "1x armor fossil"
+      ]
+    },
+    {
+      "id": 198,
+      "slug": "198-jaw-fossil-display",
+      "name": "Jaw Fossil disPlay",
+      "area": "Any",
+      "details": "1x pedestal / exhibition stand, 1x jaw fossil",
+      "setup": [
+        "1x pedestal / exhibition stand",
+        "1x jaw fossil"
+      ]
+    },
+    {
+      "id": 199,
+      "slug": "199-despot-fossil-display",
+      "name": "Despot Fossil disPlay",
+      "area": "Any",
+      "details": "1x pedestal / exhibition stand, 1x despot fossil (head), 1x despot fossil (body), 1x despot fossil (tail), 1x despot fossil (legs)",
+      "setup": [
+        "1x pedestal / exhibition stand",
+        "1x despot fossil (head)",
+        "1x despot fossil (body)",
+        "1x despot fossil (tail)",
+        "1x despot fossil (legs)"
+      ]
+    },
+    {
+      "id": 201,
+      "slug": "201-tundra-fossil-display",
+      "name": "Tundra Fossil disPlay",
+      "area": "Any",
+      "details": "1x pedestal / exhibition stand, 1x tundra fossil (head), 1x tundra fossil (body), 1x tundra fossil (tail)",
+      "setup": [
+        "1x pedestal / exhibition stand",
+        "1x tundra fossil (head)",
+        "1x tundra fossil (body)",
+        "1x tundra fossil (tail)"
+      ]
+    },
+    {
+      "id": 202,
+      "slug": "202-boundless-blue-beverage",
+      "name": "Boundless blue beverage",
+      "area": "Palette Town",
+      "details": "1x seat (any), 1x table (any), 1x soda float",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x soda float"
+      ]
+    },
+    {
+      "id": 203,
+      "slug": "203-electrifying-potatoes",
+      "name": "Electrifying potatoes",
+      "area": "Palette Town",
+      "details": "1x seat (any), 1x table (any), 1x fried potatoes",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x fried potatoes"
+      ]
+    },
+    {
+      "id": 204,
+      "slug": "204-burning-hot-spice",
+      "name": "Burning-hot spice",
+      "area": "Palette Town",
+      "details": "1x seat (any), 1x table (any), 1x pizza",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x pizza"
+      ]
+    },
+    {
+      "id": 205,
+      "slug": "205-elegant-daytime-treats",
+      "name": "Elegant daytime treats",
+      "area": "Palette Town",
+      "details": "1x seat (any), 1x table (any), 1x afternoon tea set",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x afternoon tea set"
+      ]
+    },
+    {
+      "id": 206,
+      "slug": "206-dark-chocolate-cookies",
+      "name": "Dark-chocolate cookies",
+      "area": "Palette Town",
+      "details": "1x seat (any), 1x table (any), 1x chocolate cookies",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x chocolate cookies"
+      ]
+    },
+    {
+      "id": 207,
+      "slug": "207-leafy-greens-sandwich",
+      "name": "Leafy greens sandwich",
+      "area": "Palette Town",
+      "details": "1x seat (any), 1x table (any), 1x sandwiches",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x sandwiches"
+      ]
+    },
+    {
+      "id": 208,
+      "slug": "208-chilly-shaved-ice",
+      "name": "Chilly shaved ice",
+      "area": "Palette Town",
+      "details": "1x seat (any), 1x table (any), 1x shaved ice",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x shaved ice"
+      ]
+    },
+    {
+      "id": 209,
+      "slug": "209-lovely-ribbon-cake",
+      "name": "Lovely ribbon cake",
+      "area": "Palette Town",
+      "details": "1x seat (any), 1x table (any), 1x ribbon cake",
+      "setup": [
+        "1x seat (any)",
+        "1x table (any)",
+        "1x ribbon cake"
+      ]
+    }
+  ]
+}
