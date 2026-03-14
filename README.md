@@ -49,3 +49,7 @@ The repo includes two GitHub Actions workflows:
 - `deploy.yml` publishes the built static site to GitHub Pages when changes land on `main`.
 
 For Pages hosting, set the repository Pages source to `GitHub Actions`.
+
+## Implementation docs
+
+- [`docs/current-build.md`](/Users/lindazheng/.codex/worktrees/5faa/pokopia/docs/current-build.md) documents the current app build, runtime structure, data flow, and known limitations.
