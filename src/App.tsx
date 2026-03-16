@@ -4,6 +4,7 @@ import { DetailPanel } from './components/DetailPanel'
 import { HabitatCard } from './components/HabitatCard'
 import { PokemonCard } from './components/PokemonCard'
 import { Badge } from './components/Badge'
+import { PokemonArtwork } from './components/PokemonArtwork'
 import { StatTile } from './components/StatTile'
 import {
   areaOptions,
@@ -21,6 +22,7 @@ import {
   weatherOptions,
 } from './data/pokopia'
 import { ALL_FILTER, formatDateLabel, matchesHabitatFilters, matchesPokemonFilters } from './lib/filters'
+import { getBadgeStyle, getHabitatVisual, getSpecialtyVisual, getSurfaceStyle } from './lib/visuals'
 import type { HabitatFilters, PokemonFilters, ViewMode } from './types'
 
 const defaultPokemonFilters: PokemonFilters = {
@@ -50,6 +52,14 @@ const areaLeader = areaOptions
   .sort((left, right) => right.count - left.count)[0]
 
 const multiHabitatPokemonCount = pokemonEntries.filter((entry) => entry.habitatIds.length > 1).length
+
+const specialtySpotlights = specialtyOptions
+  .map((specialty) => ({
+    specialty,
+    count: pokemonEntries.filter((entry) => entry.specialties.includes(specialty)).length,
+  }))
+  .sort((left, right) => right.count - left.count)
+  .slice(0, 6)
 
 function getInitialView() {
   const params = new URLSearchParams(window.location.search)
@@ -194,23 +204,26 @@ export default function App() {
       ? `${filteredPokemon.length} Pokemon`
       : `${filteredHabitats.length} habitats`
 
+  const heroPokemon = selectedPokemon ?? filteredPokemon[0] ?? pokemonEntries[0] ?? null
+  const heroHabitat = selectedHabitat ?? filteredHabitats[0] ?? habitatEntries[0] ?? null
+
   return (
     <div className="app-shell">
       <header className="hero">
         <div className="hero__copy">
-          <p className="eyebrow">Pokopia Field Guide</p>
-          <h1>A polished reference app for finding the right Pokemon and habitat recipes fast.</h1>
+          <p className="eyebrow">Pokopia companion guide</p>
+          <h1>Compare specialties, habitat fits, and favorite cues without fighting the spreadsheet.</h1>
           <p className="hero__lead">
-            Built from the public Pokopia spreadsheet as a static, GitHub Pages-ready guide with cross-linked discovery between
-            Pokemon, habitat builds, weather windows, and favorite cues.
+            Reimagined as a light-first field guide with local Pokemon art, game-flavored category chips, and fast cross-links
+            between the Pokedex and Habitat Dex.
           </p>
 
           <div className="hero__actions">
             <Badge onClick={() => selectPokemon(1)} tone="sun">
-              Start with the Pokédex
+              Open the Pokedex
             </Badge>
             <Badge onClick={() => selectHabitat(1)} tone="wave">
-              Browse habitat recipes
+              Browse habitats
             </Badge>
             <Badge
               onClick={() => {
@@ -221,12 +234,68 @@ export default function App() {
               }}
               tone="night"
             >
-              Spotlight night Pokemon
+              Night scouting
             </Badge>
+          </div>
+
+          <div className="hero__spotlights">
+            {specialtySpotlights.map(({ count, specialty }) => {
+              const visual = getSpecialtyVisual(specialty)
+
+              return (
+                <Badge compact icon={visual.icon} key={specialty} style={getBadgeStyle(visual)}>
+                  {specialty} {count}
+                </Badge>
+              )
+            })}
           </div>
         </div>
 
-        <div className="hero__stats">
+        <div className="hero__feature">
+          {heroPokemon ? (
+            <article className="hero-mon" style={getSurfaceStyle(getSpecialtyVisual(heroPokemon.specialties[0] ?? ''))}>
+              <div className="hero-mon__art">
+                <PokemonArtwork entry={heroPokemon} size="hero" />
+              </div>
+
+              <div className="hero-mon__copy">
+                <p className="hero-mon__eyebrow">Current spotlight</p>
+                <h2>{heroPokemon.name}</h2>
+                <p>
+                  {heroPokemon.idealHabitat
+                    ? `${heroPokemon.idealHabitat} affinity with ${heroPokemon.specialties.join(' + ')} utility.`
+                    : `${heroPokemon.specialties.join(' + ')} utility with no habitat affinity recorded yet.`}
+                </p>
+
+                <div className="badge-group">
+                  {heroPokemon.specialties.slice(0, 3).map((specialty) => {
+                    const visual = getSpecialtyVisual(specialty)
+
+                    return (
+                      <Badge compact icon={visual.icon} key={specialty} style={getBadgeStyle(visual)}>
+                        {specialty}
+                      </Badge>
+                    )
+                  })}
+                  {heroPokemon.idealHabitat ? (
+                    <Badge
+                      compact
+                      icon={getHabitatVisual(heroPokemon.idealHabitat).icon}
+                      style={getBadgeStyle(getHabitatVisual(heroPokemon.idealHabitat))}
+                    >
+                      {heroPokemon.idealHabitat}
+                    </Badge>
+                  ) : null}
+                </div>
+
+                <div className="hero-mon__notes">
+                  <span>{heroPokemon.favorites.slice(0, 2).join(' · ') || 'No favourite cues listed'}</span>
+                  <span>{heroPokemon.habitatIds.length} linked habitats</span>
+                </div>
+              </div>
+            </article>
+          ) : null}
+
           <div className="hero__stat-grid">
             <StatTile caption="Sheet-backed entries" label="Pokemon" value={pokemonEntries.length.toString()} />
             <StatTile caption="Buildable habitat recipes" label="Habitats" value={habitatEntries.length.toString()} />
@@ -248,12 +317,8 @@ export default function App() {
               <strong>{areaLeader ? `${areaLeader.area} (${areaLeader.count})` : 'Unknown'}</strong>
             </article>
             <article>
-              <p>Source of truth</p>
-              <strong>
-                <a href="https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/htmlview?pli=1#gid=0">
-                  Google Sheet
-                </a>
-              </strong>
+              <p>Current habitat focus</p>
+              <strong>{heroHabitat ? heroHabitat.name : 'No habitat selected'}</strong>
             </article>
           </div>
         </div>
@@ -356,11 +421,11 @@ export default function App() {
           <section className="results-panel">
             <div className="results-panel__header">
               <div>
-                <p className="eyebrow">{activeView === 'pokemon' ? 'Browse Pokemon' : 'Browse habitats'}</p>
+                <p className="eyebrow">{activeView === 'pokemon' ? 'Pokemon board' : 'Habitat board'}</p>
                 <h2>
                   {activeView === 'pokemon'
-                    ? 'Cross-reference specialties, timing, and favorite cues.'
-                    : 'Inspect area recipes and which Pokemon they support.'}
+                    ? 'Compare roles, conditions, and habitat affinity at a glance.'
+                    : 'Scan build recipes and the Pokemon they attract.'}
                 </h2>
               </div>
             </div>
