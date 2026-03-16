@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths-ignore:
+      - 'scripts/claudia/**'
   workflow_dispatch:
 
 permissions:

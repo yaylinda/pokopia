@@ -52,4 +52,6 @@ For Pages hosting, set the repository Pages source to `GitHub Actions`.
 
 ## Implementation docs
 
-- [`docs/current-build.md`](/Users/lindazheng/.codex/worktrees/5faa/pokopia/docs/current-build.md) documents the current app build, runtime structure, data flow, and known limitations.
+- [`docs/current-build.md`](docs/current-build.md) documents the current app build, runtime structure, data flow, and known limitations.
+- [`AGENTS.md`](AGENTS.md) gives coding agents and contributors a quick repository map plus working conventions.
+- `scripts/claudia/` stores Claudia task metadata and progress logs used for autonomous agent workflows.

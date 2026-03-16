@@ -2,9 +2,13 @@ name: CI
 
 on:
   pull_request:
+    paths-ignore:
+      - 'scripts/claudia/**'
   push:
     branches:
       - main
+    paths-ignore:
+      - 'scripts/claudia/**'
 
 jobs:
   verify:
