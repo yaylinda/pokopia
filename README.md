@@ -47,6 +47,8 @@ The repo includes two GitHub Actions workflows:
 
 - `ci.yml` verifies `lint`, `test`, and `build` on pull requests and pushes to `main`.
 - `deploy.yml` publishes the built static site to GitHub Pages when changes land on `main`.
+- Workflow actions are pinned to immutable SHAs and annotated with their source release tags for supply-chain safety.
+- As of March 14, 2026, GitHub's official Pages actions still emit an upstream Node.js 20 deprecation warning even when using the latest documented Pages workflow stack. Revisit those pins when GitHub ships newer Pages action majors.
 
 For Pages hosting, set the repository Pages source to `GitHub Actions`.
 
