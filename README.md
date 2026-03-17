@@ -1,6 +1,6 @@
 # Pokopia Field Guide
 
-A static React + TypeScript reference app for the Nintendo Switch game Pokopia. The site turns the shared Google Sheet into a searchable field guide with two connected discovery surfaces:
+A static React + TypeScript reference app for the Nintendo Switch game Pokopia. The site turns a repo-owned dataset into a searchable field guide with two connected discovery surfaces:
 
 - `Pokédex`: browse Pokemon by specialty, ideal habitat, favorite cues, time of day, and weather.
 - `Habitat Dex`: browse habitat recipes by area and see which Pokemon point back to each habitat.
@@ -18,14 +18,12 @@ A static React + TypeScript reference app for the Nintendo Switch game Pokopia. 
 
 ```bash
 npm install
-npm run sync:data
 npm run dev
 ```
 
 ## Commands
 
 ```bash
-npm run sync:data  # refresh src/data/pokopia-data.json from the public sheet
 npm run lint       # eslint
 npm run test       # vitest
 npm run build      # type-check and production build
@@ -33,13 +31,13 @@ npm run build      # type-check and production build
 
 ## Data model
 
-The app is statically hosted, so the spreadsheet is normalized into a local JSON snapshot during development:
+The app is statically hosted and keeps its source of truth in-repo:
 
-- Source sheet: [Pokopia spreadsheet](https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/htmlview?pli=1#gid=0)
-- Sync script: `scripts/sync-sheet-data.mjs`
-- Generated data: `src/data/pokopia-data.json`
+- Editable dataset: `src/data/pokopia-data.json`
+- Data access helpers: `src/data/pokopia.ts`
+- Pokemon `id` values use canonical National Dex numbers so sprite filenames stay stable.
 
-This keeps the GitHub Pages build simple and avoids depending on live sheet access at runtime.
+This keeps the GitHub Pages build simple and avoids depending on live external data at runtime.
 
 ## Deployment
 

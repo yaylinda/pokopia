@@ -22,12 +22,7 @@ export interface HabitatEntry {
 }
 
 export interface PokopiaData {
-  generatedAt: string
-  source: {
-    sheetId: string
-    pokedexUrl: string
-    habitatsUrl: string
-  }
+  updatedAt: string
   pokemon: PokemonEntry[]
   habitats: HabitatEntry[]
 }

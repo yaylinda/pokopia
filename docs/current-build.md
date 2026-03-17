@@ -4,7 +4,7 @@ This document describes the current implementation of the Pokopia Field Guide as
 
 ## Product scope
 
-The app is a static reference site for the Nintendo Switch game Pokopia. Its job is to turn the shared Google Sheet into a faster browsing experience than the raw spreadsheet.
+The app is a static reference site for the Nintendo Switch game Pokopia. Its job is to turn the repo's curated dataset into a faster browsing experience than raw tables.
 
 The current release focuses on two connected surfaces:
 
@@ -17,7 +17,7 @@ The app is intentionally read-only. There is no backend, user auth, or write pat
 
 The current UX is optimized around quick lookup and cross-reference rather than encyclopedic article pages.
 
-- The hero section summarizes dataset size, sync freshness, and a few quick-entry actions.
+- The hero section summarizes dataset size and freshness.
 - The main workspace lets the user switch between `Pokemon` and `Habitat Dex`.
 - Search is shared across both views and is contextual to the active surface.
 - Filters are surface-specific:
@@ -26,22 +26,16 @@ The current UX is optimized around quick lookup and cross-reference rather than 
 - Selecting a card opens a sticky detail panel on desktop and scroll-targeted detail view on mobile.
 - Deep-linkable URL state preserves the active view, search query, and selected entity.
 
-## Data source and sync model
+## Data model
 
-The source of truth is the public Pokopia Google Sheet.
+The source of truth is the committed JSON file at `src/data/pokopia-data.json`.
 
-- Spreadsheet URL: [Pokopia spreadsheet](https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/htmlview?pli=1#gid=0)
-- Pokédex sheet gid: `0`
-- Habitat sheet gid: `92048572`
+- Pokemon and habitat records live directly in the repo.
+- Contributors update the dataset in place when new information is confirmed.
+- Pokemon `id` values are canonical National Dex numbers and double as the local sprite key.
+- The app imports that JSON directly for static hosting.
 
-The app does not fetch the sheet at runtime. Instead, development uses a sync step:
-
-1. `scripts/sync-sheet-data.mjs` downloads both sheets as CSV.
-2. The script normalizes rows into a typed local JSON snapshot.
-3. The generated file is committed at `src/data/pokopia-data.json`.
-4. The app imports that JSON directly for static hosting.
-
-This design keeps GitHub Pages deployment simple and avoids relying on cross-origin requests or live spreadsheet availability in the browser.
+This keeps GitHub Pages deployment simple and avoids relying on live external data sources in the browser.
 
 ## Runtime architecture
 
@@ -54,7 +48,7 @@ The app is a single React entrypoint with local module boundaries rather than a 
   - Manages active view, shared search query, filter state, and selected entity state.
   - Syncs selection state into URL query parameters for shareable links.
 - `src/data/pokopia.ts`
-  - Loads the generated JSON.
+  - Loads the committed JSON dataset.
   - Builds lookup maps and filter option lists.
   - Exposes helper functions for Pokemon-to-habitat and habitat-to-Pokemon relationships.
 - `src/lib/filters.ts`
@@ -163,7 +157,7 @@ npm run build
 
 These are current constraints, not necessarily bugs:
 
-- Data freshness is manual. The sheet snapshot updates only when `npm run sync:data` is run and committed.
+- Data freshness is manual. The committed dataset changes only when someone edits `src/data/pokopia-data.json` and commits it.
 - The app has no dedicated client-side router beyond query string state.
 - Search is substring-based, not ranked or typo-tolerant.
 - There are no screenshots or visual regression checks in the repo.
@@ -175,5 +169,5 @@ If someone extends the app, the most sensible next investments are:
 
 1. Add stronger automated coverage for URL-state behavior and cross-link navigation.
 2. Add a lightweight screenshot-based UI test for the major surfaces.
-3. Introduce richer docs around content maintenance if non-engineers will refresh the sheet snapshot regularly.
+3. Introduce richer docs around content maintenance if non-engineers will update the committed dataset regularly.
 4. Consider extracting a dedicated query-state hook if the top-level UI state grows.

@@ -1,10 +1,5 @@
 {
-  "generatedAt": "2026-03-14T23:14:37.846Z",
-  "source": {
-    "sheetId": "1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA",
-    "pokedexUrl": "https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/gviz/tq?tqx=out:csv&gid=0",
-    "habitatsUrl": "https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/gviz/tq?tqx=out:csv&gid=92048572"
-  },
+  "updatedAt": "2026-03-17T00:00:00.000-07:00",
   "pokemon": [
     {
       "id": 1,
@@ -23,15 +18,15 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
@@ -51,15 +46,15 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
@@ -82,15 +77,15 @@
         11
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
@@ -112,14 +107,14 @@
         1
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f"
       ]
     },
     {
@@ -135,14 +130,14 @@
         17
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f"
       ]
     },
     {
@@ -176,15 +171,15 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
@@ -200,15 +195,15 @@
         4
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "🌧️",
-        "☁️"
+        "\u2600\ufe0f",
+        "\ud83c\udf27\ufe0f",
+        "\u2601\ufe0f"
       ]
     },
     {
@@ -225,19 +220,19 @@
         4
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 10,
+      "id": 16,
       "slug": "pidgey",
       "name": "Pidgey",
       "specialties": [
@@ -254,18 +249,18 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 11,
+      "id": 17,
       "slug": "pidgeotto",
       "name": "Pidgeotto",
       "specialties": [
@@ -285,7 +280,7 @@
       "weather": []
     },
     {
-      "id": 12,
+      "id": 18,
       "slug": "pidgeot",
       "name": "Pidgeot",
       "specialties": [
@@ -299,7 +294,7 @@
       "weather": []
     },
     {
-      "id": 13,
+      "id": 43,
       "slug": "oddish",
       "name": "Oddish",
       "specialties": [
@@ -317,16 +312,16 @@
         1
       ],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 14,
+      "id": 44,
       "slug": "gloom",
       "name": "Gloom",
       "specialties": [
@@ -344,19 +339,19 @@
         57
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 15,
+      "id": 45,
       "slug": "vileplume",
       "name": "Vileplume",
       "specialties": [
@@ -370,7 +365,7 @@
       "weather": []
     },
     {
-      "id": 16,
+      "id": 182,
       "slug": "bellossom",
       "name": "Bellossom",
       "specialties": [
@@ -390,7 +385,7 @@
       "weather": []
     },
     {
-      "id": 17,
+      "id": 46,
       "slug": "paras",
       "name": "Paras",
       "specialties": [
@@ -406,19 +401,19 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 18,
+      "id": 47,
       "slug": "parasect",
       "name": "Parasect",
       "specialties": [
@@ -428,19 +423,19 @@
       "favorites": [],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 19,
+      "id": 48,
       "slug": "venonat",
       "name": "Venonat",
       "specialties": [
@@ -450,16 +445,16 @@
       "favorites": [],
       "habitatIds": [],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 20,
+      "id": 49,
       "slug": "venomoth",
       "name": "Venomoth",
       "specialties": [
@@ -469,16 +464,16 @@
       "favorites": [],
       "habitatIds": [],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 21,
+      "id": 69,
       "slug": "bellsprout",
       "name": "Bellsprout",
       "specialties": [
@@ -497,19 +492,19 @@
         2
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 22,
+      "id": 70,
       "slug": "weepinbell",
       "name": "Weepinbell",
       "specialties": [
@@ -528,19 +523,19 @@
         21
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 23,
+      "id": 71,
       "slug": "victreebel",
       "name": "Victreebel",
       "specialties": [
@@ -554,7 +549,7 @@
       "weather": []
     },
     {
-      "id": 24,
+      "id": 79,
       "slug": "slowpoke",
       "name": "Slowpoke",
       "specialties": [
@@ -573,19 +568,19 @@
         5
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 25,
+      "id": 80,
       "slug": "slowbro",
       "name": "Slowbro",
       "specialties": [
@@ -599,7 +594,7 @@
       "weather": []
     },
     {
-      "id": 26,
+      "id": 199,
       "slug": "slowking",
       "name": "Slowking",
       "specialties": [
@@ -618,19 +613,19 @@
         5
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 27,
+      "id": 81,
       "slug": "magnemite",
       "name": "Magnemite",
       "specialties": [
@@ -649,7 +644,7 @@
       "weather": []
     },
     {
-      "id": 28,
+      "id": 82,
       "slug": "magneton",
       "name": "Magneton",
       "specialties": [
@@ -664,7 +659,7 @@
       "weather": []
     },
     {
-      "id": 29,
+      "id": 462,
       "slug": "magnezone",
       "name": "Magnezone",
       "specialties": [
@@ -678,7 +673,7 @@
       "weather": []
     },
     {
-      "id": 30,
+      "id": 95,
       "slug": "onix",
       "name": "Onix",
       "specialties": [
@@ -697,19 +692,19 @@
         37
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 31,
+      "id": 208,
       "slug": "steelix",
       "name": "Steelix",
       "specialties": [
@@ -725,7 +720,7 @@
       "weather": []
     },
     {
-      "id": 32,
+      "id": 104,
       "slug": "cubone",
       "name": "Cubone",
       "specialties": [
@@ -741,19 +736,19 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 33,
+      "id": 105,
       "slug": "marowak",
       "name": "Marowak",
       "specialties": [
@@ -763,19 +758,19 @@
       "favorites": [],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 34,
+      "id": 236,
       "slug": "tyrogue",
       "name": "Tyrogue",
       "specialties": [
@@ -793,19 +788,19 @@
         18
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 35,
+      "id": 106,
       "slug": "hitmonlee",
       "name": "Hitmonlee",
       "specialties": [
@@ -823,19 +818,19 @@
         25
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 36,
+      "id": 107,
       "slug": "hitmonchan",
       "name": "Hitmonchan",
       "specialties": [
@@ -853,19 +848,19 @@
         24
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 37,
+      "id": 237,
       "slug": "hitmontop",
       "name": "Hitmontop",
       "specialties": [
@@ -877,19 +872,19 @@
         26
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 38,
+      "id": 109,
       "slug": "koffing",
       "name": "Koffing",
       "specialties": [
@@ -902,7 +897,7 @@
       "weather": []
     },
     {
-      "id": 39,
+      "id": 110,
       "slug": "weezing",
       "name": "Weezing",
       "specialties": [
@@ -915,7 +910,7 @@
       "weather": []
     },
     {
-      "id": 40,
+      "id": 114,
       "slug": "tangela",
       "name": "Tangela",
       "specialties": [
@@ -929,7 +924,7 @@
       "weather": []
     },
     {
-      "id": 41,
+      "id": 465,
       "slug": "tangrowth",
       "name": "Tangrowth",
       "specialties": [
@@ -949,7 +944,7 @@
       "weather": []
     },
     {
-      "id": 42,
+      "id": 123,
       "slug": "scyther",
       "name": "Scyther",
       "specialties": [
@@ -967,19 +962,19 @@
         2
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 43,
+      "id": 212,
       "slug": "scizor",
       "name": "Scizor",
       "specialties": [
@@ -998,7 +993,7 @@
       "weather": []
     },
     {
-      "id": 44,
+      "id": 127,
       "slug": "pinsir",
       "name": "Pinsir",
       "specialties": [
@@ -1017,19 +1012,19 @@
         2
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 45,
+      "id": 129,
       "slug": "magikarp",
       "name": "Magikarp",
       "specialties": [],
@@ -1045,19 +1040,19 @@
         185
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 46,
+      "id": 130,
       "slug": "gyarados",
       "name": "Gyarados",
       "specialties": [
@@ -1070,7 +1065,7 @@
       "weather": []
     },
     {
-      "id": 47,
+      "id": 132,
       "slug": "ditto",
       "name": "Ditto",
       "specialties": [
@@ -1083,7 +1078,7 @@
       "weather": []
     },
     {
-      "id": 48,
+      "id": 163,
       "slug": "hoothoot",
       "name": "Hoothoot",
       "specialties": [
@@ -1103,16 +1098,16 @@
         8
       ],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 49,
+      "id": 164,
       "slug": "noctowl",
       "name": "Noctowl",
       "specialties": [
@@ -1129,16 +1124,16 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 50,
+      "id": 214,
       "slug": "heracross",
       "name": "Heracross",
       "specialties": [
@@ -1157,19 +1152,19 @@
         2
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 51,
+      "id": 313,
       "slug": "volbeat",
       "name": "Volbeat",
       "specialties": [
@@ -1181,19 +1176,19 @@
         10
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 52,
+      "id": 314,
       "slug": "illumise",
       "name": "Illumise",
       "specialties": [
@@ -1211,19 +1206,19 @@
         10
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 53,
+      "id": 316,
       "slug": "gulpin",
       "name": "Gulpin",
       "specialties": [
@@ -1244,7 +1239,7 @@
       "weather": []
     },
     {
-      "id": 54,
+      "id": 317,
       "slug": "swalot",
       "name": "Swalot",
       "specialties": [
@@ -1257,7 +1252,7 @@
       "weather": []
     },
     {
-      "id": 55,
+      "id": 331,
       "slug": "cacnea",
       "name": "Cacnea",
       "specialties": [
@@ -1276,7 +1271,7 @@
       "weather": []
     },
     {
-      "id": 56,
+      "id": 332,
       "slug": "cacturne",
       "name": "Cacturne",
       "specialties": [
@@ -1292,7 +1287,7 @@
       "weather": []
     },
     {
-      "id": 57,
+      "id": 415,
       "slug": "combee",
       "name": "Combee",
       "specialties": [
@@ -1310,19 +1305,19 @@
         8
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 58,
+      "id": 416,
       "slug": "vespiquen",
       "name": "Vespiquen",
       "specialties": [
@@ -1341,19 +1336,19 @@
         11
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 59,
+      "id": 422,
       "slug": "shellos",
       "name": "Shellos",
       "specialties": [
@@ -1371,19 +1366,19 @@
         27
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 60,
+      "id": 423,
       "slug": "gastrodon",
       "name": "Gastrodon",
       "specialties": [
@@ -1396,19 +1391,19 @@
         185
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 61,
+      "id": 425,
       "slug": "drifloon",
       "name": "Drifloon",
       "specialties": [
@@ -1424,19 +1419,19 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 62,
+      "id": 426,
       "slug": "drifblim",
       "name": "Drifblim",
       "specialties": [
@@ -1450,7 +1445,7 @@
       "weather": []
     },
     {
-      "id": 63,
+      "id": 529,
       "slug": "drilbur",
       "name": "Drilbur",
       "specialties": [
@@ -1468,19 +1463,19 @@
         15
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 64,
+      "id": 530,
       "slug": "excadrill",
       "name": "Excadrill",
       "specialties": [
@@ -1499,19 +1494,19 @@
         15
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 65,
+      "id": 532,
       "slug": "timburr",
       "name": "Timburr",
       "specialties": [
@@ -1529,19 +1524,19 @@
         3
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 66,
+      "id": 533,
       "slug": "gurdurr",
       "name": "Gurdurr",
       "specialties": [
@@ -1557,19 +1552,19 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 67,
+      "id": 534,
       "slug": "conkeldurr",
       "name": "Conkeldurr",
       "specialties": [
@@ -1589,7 +1584,7 @@
       "weather": []
     },
     {
-      "id": 68,
+      "id": 607,
       "slug": "litwick",
       "name": "Litwick",
       "specialties": [
@@ -1607,19 +1602,19 @@
         32
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 69,
+      "id": 608,
       "slug": "lampent",
       "name": "Lampent",
       "specialties": [
@@ -1632,7 +1627,7 @@
       "weather": []
     },
     {
-      "id": 70,
+      "id": 609,
       "slug": "chandelure",
       "name": "Chandelure",
       "specialties": [
@@ -1644,19 +1639,19 @@
         33
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 71,
+      "id": 610,
       "slug": "axew",
       "name": "Axew",
       "specialties": [
@@ -1671,7 +1666,7 @@
       "weather": []
     },
     {
-      "id": 72,
+      "id": 611,
       "slug": "fraxure",
       "name": "Fraxure",
       "specialties": [
@@ -1681,17 +1676,17 @@
       "favorites": [],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "🌧️"
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 73,
+      "id": 612,
       "slug": "haxorus",
       "name": "Haxorus",
       "specialties": [
@@ -1704,17 +1699,17 @@
         4
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "🌧️"
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 74,
+      "id": 704,
       "slug": "goomy",
       "name": "Goomy",
       "specialties": [
@@ -1733,7 +1728,7 @@
       "weather": []
     },
     {
-      "id": 75,
+      "id": 705,
       "slug": "sliggoo",
       "name": "Sliggoo",
       "specialties": [
@@ -1752,7 +1747,7 @@
       "weather": []
     },
     {
-      "id": 76,
+      "id": 706,
       "slug": "goodra",
       "name": "Goodra",
       "specialties": [
@@ -1766,7 +1761,7 @@
       "weather": []
     },
     {
-      "id": 77,
+      "id": 845,
       "slug": "cramorant",
       "name": "Cramorant",
       "specialties": [
@@ -1779,19 +1774,19 @@
         4
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 78,
+      "id": 172,
       "slug": "pichu",
       "name": "Pichu",
       "specialties": [
@@ -1809,19 +1804,19 @@
         20
       ],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 79,
+      "id": 25,
       "slug": "pikachu",
       "name": "Pikachu",
       "specialties": [
@@ -1840,7 +1835,7 @@
       "weather": []
     },
     {
-      "id": 80,
+      "id": 26,
       "slug": "raichu",
       "name": "Raichu",
       "specialties": [
@@ -1854,7 +1849,7 @@
       "weather": []
     },
     {
-      "id": 81,
+      "id": 41,
       "slug": "zubat",
       "name": "Zubat",
       "specialties": [
@@ -1872,16 +1867,16 @@
         51
       ],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 82,
+      "id": 42,
       "slug": "golbat",
       "name": "Golbat",
       "specialties": [
@@ -1893,16 +1888,16 @@
         51
       ],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 83,
+      "id": 169,
       "slug": "crobat",
       "name": "Crobat",
       "specialties": [
@@ -1922,7 +1917,7 @@
       "weather": []
     },
     {
-      "id": 84,
+      "id": 52,
       "slug": "meowth",
       "name": "Meowth",
       "specialties": [
@@ -1938,19 +1933,19 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 85,
+      "id": 53,
       "slug": "persian",
       "name": "Persian",
       "specialties": [
@@ -1964,7 +1959,7 @@
       "weather": []
     },
     {
-      "id": 86,
+      "id": 54,
       "slug": "psyduck",
       "name": "Psyduck",
       "specialties": [
@@ -1977,7 +1972,7 @@
       "weather": []
     },
     {
-      "id": 87,
+      "id": 55,
       "slug": "golduck",
       "name": "Golduck",
       "specialties": [
@@ -1990,7 +1985,7 @@
       "weather": []
     },
     {
-      "id": 88,
+      "id": 58,
       "slug": "growlithe",
       "name": "Growlithe",
       "specialties": [
@@ -2007,19 +2002,19 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 89,
+      "id": 59,
       "slug": "arcanine",
       "name": "Arcanine",
       "specialties": [
@@ -2033,7 +2028,7 @@
       "weather": []
     },
     {
-      "id": 90,
+      "id": 83,
       "slug": "farfetch-d",
       "name": "Farfetch'd",
       "specialties": [
@@ -2050,19 +2045,19 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 91,
+      "id": 88,
       "slug": "grimer",
       "name": "Grimer",
       "specialties": [
@@ -2075,7 +2070,7 @@
       "weather": []
     },
     {
-      "id": 92,
+      "id": 89,
       "slug": "muk",
       "name": "Muk",
       "specialties": [
@@ -2088,7 +2083,7 @@
       "weather": []
     },
     {
-      "id": 93,
+      "id": 92,
       "slug": "gastly",
       "name": "Gastly",
       "specialties": [
@@ -2101,16 +2096,16 @@
         89
       ],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 94,
+      "id": 93,
       "slug": "haunter",
       "name": "Haunter",
       "specialties": [
@@ -2121,16 +2116,16 @@
       "favorites": [],
       "habitatIds": [],
       "timeOfDay": [
-        "🌙"
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 95,
+      "id": 94,
       "slug": "gengar",
       "name": "Gengar",
       "specialties": [
@@ -2144,7 +2139,7 @@
       "weather": []
     },
     {
-      "id": 96,
+      "id": 100,
       "slug": "voltorb",
       "name": "Voltorb",
       "specialties": [
@@ -2157,7 +2152,7 @@
       "weather": []
     },
     {
-      "id": 97,
+      "id": 101,
       "slug": "electrode",
       "name": "Electrode",
       "specialties": [
@@ -2170,7 +2165,7 @@
       "weather": []
     },
     {
-      "id": 98,
+      "id": 102,
       "slug": "exeggcute",
       "name": "Exeggcute",
       "specialties": [
@@ -2187,19 +2182,19 @@
       ],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 99,
+      "id": 103,
       "slug": "exeggutor",
       "name": "Exeggutor",
       "specialties": [
@@ -2210,19 +2205,19 @@
       "favorites": [],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 100,
+      "id": 440,
       "slug": "happiny",
       "name": "Happiny",
       "specialties": [
@@ -2232,19 +2227,19 @@
       "favorites": [],
       "habitatIds": [],
       "timeOfDay": [
-        "🌅",
-        "☀️",
-        "🌄",
-        "🌙"
+        "\ud83c\udf05",
+        "\u2600\ufe0f",
+        "\ud83c\udf04",
+        "\ud83c\udf19"
       ],
       "weather": [
-        "☀️",
-        "☁️",
-        "🌧️"
+        "\u2600\ufe0f",
+        "\u2601\ufe0f",
+        "\ud83c\udf27\ufe0f"
       ]
     },
     {
-      "id": 101,
+      "id": 113,
       "slug": "chansey",
       "name": "Chansey",
       "specialties": [
@@ -2257,9 +2252,9 @@
       "weather": []
     },
     {
-      "id": 102,
+      "id": 242,
       "slug": "bilssey",
-      "name": "Bilssey",
+      "name": "Blissey",
       "specialties": [
         "Trade",
         "Litter"
@@ -2271,7 +2266,7 @@
       "weather": []
     },
     {
-      "id": 103,
+      "id": 239,
       "slug": "elekid",
       "name": "Elekid",
       "specialties": [
@@ -2284,7 +2279,7 @@
       "weather": []
     },
     {
-      "id": 104,
+      "id": 125,
       "slug": "electabuzz",
       "name": "Electabuzz",
       "specialties": [
@@ -2297,7 +2292,7 @@
       "weather": []
     },
     {
-      "id": 105,
+      "id": 466,
       "slug": "electivire",
       "name": "Electivire",
       "specialties": [
@@ -2311,7 +2306,7 @@
       "weather": []
     },
     {
-      "id": 106,
+      "id": 131,
       "slug": "lapras",
       "name": "Lapras",
       "specialties": [
@@ -2330,7 +2325,7 @@
       "weather": []
     },
     {
-      "id": 107,
+      "id": 446,
       "slug": "munchlax",
       "name": "Munchlax",
       "specialties": [
@@ -2343,7 +2338,7 @@
       "weather": []
     },
     {
-      "id": 108,
+      "id": 143,
       "slug": "snorlax",
       "name": "Snorlax",
       "specialties": [
@@ -2364,7 +2359,7 @@
       "weather": []
     },
     {
-      "id": 109,
+      "id": 167,
       "slug": "spinarak",
       "name": "Spinarak",
       "specialties": [
@@ -2383,7 +2378,7 @@
       "weather": []
     },
     {
-      "id": 110,
+      "id": 168,
       "slug": "ariados",
       "name": "Ariados",
       "specialties": [
@@ -2402,7 +2397,7 @@
       "weather": []
     },
     {
-      "id": 111,
+      "id": 179,
       "slug": "mareep",
       "name": "Mareep",
       "specialties": [
@@ -2422,7 +2417,7 @@
       "weather": []
     },
     {
-      "id": 112,
+      "id": 180,
       "slug": "flaaffy",
       "name": "Flaaffy",
       "specialties": [
@@ -2442,7 +2437,7 @@
       "weather": []
     },
     {
-      "id": 113,
+      "id": 181,
       "slug": "ampharos",
       "name": "Ampharos",
       "specialties": [
@@ -2456,7 +2451,7 @@
       "weather": []
     },
     {
-      "id": 114,
+      "id": 298,
       "slug": "azurill",
       "name": "Azurill",
       "specialties": [
@@ -2476,7 +2471,7 @@
       "weather": []
     },
     {
-      "id": 115,
+      "id": 183,
       "slug": "marill",
       "name": "Marill",
       "specialties": [
@@ -2490,7 +2485,7 @@
       "weather": []
     },
     {
-      "id": 116,
+      "id": 184,
       "slug": "azumarill",
       "name": "Azumarill",
       "specialties": [
@@ -2504,7 +2499,7 @@
       "weather": []
     },
     {
-      "id": 117,
+      "id": 194,
       "slug": "wooper",
       "name": "Wooper",
       "specialties": [
@@ -2523,7 +2518,7 @@
       "weather": []
     },
     {
-      "id": 118,
+      "id": 980,
       "slug": "clodsire",
       "name": "Clodsire",
       "specialties": [
@@ -2536,7 +2531,7 @@
       "weather": []
     },
     {
-      "id": 119,
+      "id": 235,
       "slug": "smeargle",
       "name": "Smeargle",
       "specialties": [
@@ -2555,7 +2550,7 @@
       "weather": []
     },
     {
-      "id": 120,
+      "id": 255,
       "slug": "torchic",
       "name": "Torchic",
       "specialties": [
@@ -2574,7 +2569,7 @@
       "weather": []
     },
     {
-      "id": 121,
+      "id": 256,
       "slug": "combusken",
       "name": "Combusken",
       "specialties": [
@@ -2594,7 +2589,7 @@
       "weather": []
     },
     {
-      "id": 122,
+      "id": 257,
       "slug": "blaziken",
       "name": "Blaziken",
       "specialties": [
@@ -2614,7 +2609,7 @@
       "weather": []
     },
     {
-      "id": 123,
+      "id": 278,
       "slug": "wingull",
       "name": "Wingull",
       "specialties": [
@@ -2628,7 +2623,7 @@
       "weather": []
     },
     {
-      "id": 124,
+      "id": 279,
       "slug": "pelipper",
       "name": "Pelipper",
       "specialties": [
@@ -2642,7 +2637,7 @@
       "weather": []
     },
     {
-      "id": 125,
+      "id": 296,
       "slug": "makuhita",
       "name": "Makuhita",
       "specialties": [
@@ -2662,7 +2657,7 @@
       "weather": []
     },
     {
-      "id": 126,
+      "id": 297,
       "slug": "hariyama",
       "name": "Hariyama",
       "specialties": [
@@ -2682,7 +2677,7 @@
       "weather": []
     },
     {
-      "id": 127,
+      "id": 359,
       "slug": "absol",
       "name": "Absol",
       "specialties": [
@@ -2695,7 +2690,7 @@
       "weather": []
     },
     {
-      "id": 128,
+      "id": 393,
       "slug": "piplup",
       "name": "Piplup",
       "specialties": [
@@ -2714,7 +2709,7 @@
       "weather": []
     },
     {
-      "id": 129,
+      "id": 394,
       "slug": "prinplup",
       "name": "Prinplup",
       "specialties": [
@@ -2734,7 +2729,7 @@
       "weather": []
     },
     {
-      "id": 130,
+      "id": 395,
       "slug": "empoleon",
       "name": "Empoleon",
       "specialties": [
@@ -2748,7 +2743,7 @@
       "weather": []
     },
     {
-      "id": 131,
+      "id": 531,
       "slug": "audino",
       "name": "Audino",
       "specialties": [
@@ -2761,7 +2756,7 @@
       "weather": []
     },
     {
-      "id": 132,
+      "id": 568,
       "slug": "trubbish",
       "name": "Trubbish",
       "specialties": [
@@ -2780,7 +2775,7 @@
       "weather": []
     },
     {
-      "id": 133,
+      "id": 569,
       "slug": "garbodor",
       "name": "Garbodor",
       "specialties": [
@@ -2800,7 +2795,7 @@
       "weather": []
     },
     {
-      "id": 134,
+      "id": 570,
       "slug": "zorua",
       "name": "Zorua",
       "specialties": [
@@ -2819,7 +2814,7 @@
       "weather": []
     },
     {
-      "id": 135,
+      "id": 571,
       "slug": "zoroark",
       "name": "Zoroark",
       "specialties": [
@@ -2833,7 +2828,7 @@
       "weather": []
     },
     {
-      "id": 136,
+      "id": 572,
       "slug": "minccino",
       "name": "Minccino",
       "specialties": [
@@ -2846,7 +2841,7 @@
       "weather": []
     },
     {
-      "id": 137,
+      "id": 573,
       "slug": "cinccino",
       "name": "Cinccino",
       "specialties": [
@@ -2860,7 +2855,7 @@
       "weather": []
     },
     {
-      "id": 138,
+      "id": 736,
       "slug": "grubbin",
       "name": "Grubbin",
       "specialties": [
@@ -2879,7 +2874,7 @@
       "weather": []
     },
     {
-      "id": 139,
+      "id": 737,
       "slug": "charjabug",
       "name": "Charjabug",
       "specialties": [
@@ -2893,7 +2888,7 @@
       "weather": []
     },
     {
-      "id": 140,
+      "id": 738,
       "slug": "vikavolt",
       "name": "Vikavolt",
       "specialties": [
@@ -2907,7 +2902,7 @@
       "weather": []
     },
     {
-      "id": 141,
+      "id": 778,
       "slug": "mimikyu",
       "name": "Mimikyu",
       "specialties": [
@@ -2920,7 +2915,7 @@
       "weather": []
     },
     {
-      "id": 142,
+      "id": 921,
       "slug": "pawmi",
       "name": "Pawmi",
       "specialties": [
@@ -2939,7 +2934,7 @@
       "weather": []
     },
     {
-      "id": 143,
+      "id": 922,
       "slug": "pawmo",
       "name": "Pawmo",
       "specialties": [
@@ -2959,7 +2954,7 @@
       "weather": []
     },
     {
-      "id": 144,
+      "id": 923,
       "slug": "pawmot",
       "name": "Pawmot",
       "specialties": [
@@ -2973,7 +2968,7 @@
       "weather": []
     },
     {
-      "id": 145,
+      "id": 978,
       "slug": "tatsugiri",
       "name": "Tatsugiri",
       "specialties": [],
@@ -2984,7 +2979,7 @@
       "weather": []
     },
     {
-      "id": 146,
+      "id": 23,
       "slug": "ekans",
       "name": "Ekans",
       "specialties": [
@@ -2997,7 +2992,7 @@
       "weather": []
     },
     {
-      "id": 147,
+      "id": 24,
       "slug": "arbok",
       "name": "Arbok",
       "specialties": [
@@ -3010,7 +3005,7 @@
       "weather": []
     },
     {
-      "id": 148,
+      "id": 173,
       "slug": "cleffa",
       "name": "Cleffa",
       "specialties": [
@@ -3023,7 +3018,7 @@
       "weather": []
     },
     {
-      "id": 149,
+      "id": 35,
       "slug": "clefairy",
       "name": "Clefairy",
       "specialties": [
@@ -3036,7 +3031,7 @@
       "weather": []
     },
     {
-      "id": 150,
+      "id": 36,
       "slug": "clefable",
       "name": "Clefable",
       "specialties": [
@@ -3050,7 +3045,7 @@
       "weather": []
     },
     {
-      "id": 151,
+      "id": 174,
       "slug": "igglybuff",
       "name": "Igglybuff",
       "specialties": [
@@ -3063,7 +3058,7 @@
       "weather": []
     },
     {
-      "id": 152,
+      "id": 39,
       "slug": "jigglypuff",
       "name": "Jigglypuff",
       "specialties": [
@@ -3076,7 +3071,7 @@
       "weather": []
     },
     {
-      "id": 153,
+      "id": 40,
       "slug": "wigglytuff",
       "name": "Wigglytuff",
       "specialties": [
@@ -3090,7 +3085,7 @@
       "weather": []
     },
     {
-      "id": 154,
+      "id": 50,
       "slug": "diglett",
       "name": "Diglett",
       "specialties": [
@@ -3109,7 +3104,7 @@
       "weather": []
     },
     {
-      "id": 155,
+      "id": 51,
       "slug": "dugtrio",
       "name": "Dugtrio",
       "specialties": [
@@ -3129,7 +3124,7 @@
       "weather": []
     },
     {
-      "id": 156,
+      "id": 66,
       "slug": "machop",
       "name": "Machop",
       "specialties": [
@@ -3149,7 +3144,7 @@
       "weather": []
     },
     {
-      "id": 157,
+      "id": 67,
       "slug": "machoke",
       "name": "Machoke",
       "specialties": [
@@ -3169,7 +3164,7 @@
       "weather": []
     },
     {
-      "id": 158,
+      "id": 68,
       "slug": "machamp",
       "name": "Machamp",
       "specialties": [
@@ -3183,7 +3178,7 @@
       "weather": []
     },
     {
-      "id": 159,
+      "id": 74,
       "slug": "geodude",
       "name": "Geodude",
       "specialties": [
@@ -3196,7 +3191,7 @@
       "weather": []
     },
     {
-      "id": 160,
+      "id": 75,
       "slug": "graveler",
       "name": "Graveler",
       "specialties": [
@@ -3215,7 +3210,7 @@
       "weather": []
     },
     {
-      "id": 161,
+      "id": 76,
       "slug": "golem",
       "name": "Golem",
       "specialties": [
@@ -3229,7 +3224,7 @@
       "weather": []
     },
     {
-      "id": 162,
+      "id": 240,
       "slug": "magby",
       "name": "Magby",
       "specialties": [
@@ -3248,7 +3243,7 @@
       "weather": []
     },
     {
-      "id": 163,
+      "id": 126,
       "slug": "magmar",
       "name": "Magmar",
       "specialties": [
@@ -3267,7 +3262,7 @@
       "weather": []
     },
     {
-      "id": 164,
+      "id": 467,
       "slug": "magmortar",
       "name": "Magmortar",
       "specialties": [
@@ -3281,7 +3276,7 @@
       "weather": []
     },
     {
-      "id": 165,
+      "id": 438,
       "slug": "bonsly",
       "name": "Bonsly",
       "specialties": [
@@ -3300,7 +3295,7 @@
       "weather": []
     },
     {
-      "id": 166,
+      "id": 185,
       "slug": "sudowoodo",
       "name": "Sudowoodo",
       "specialties": [
@@ -3319,7 +3314,7 @@
       "weather": []
     },
     {
-      "id": 167,
+      "id": 198,
       "slug": "murkrow",
       "name": "Murkrow",
       "specialties": [
@@ -3333,7 +3328,7 @@
       "weather": []
     },
     {
-      "id": 168,
+      "id": 430,
       "slug": "honchkrow",
       "name": "Honchkrow",
       "specialties": [
@@ -3347,7 +3342,7 @@
       "weather": []
     },
     {
-      "id": 169,
+      "id": 246,
       "slug": "larvitar",
       "name": "Larvitar",
       "specialties": [
@@ -3367,7 +3362,7 @@
       "weather": []
     },
     {
-      "id": 170,
+      "id": 247,
       "slug": "pupitar",
       "name": "Pupitar",
       "specialties": [
@@ -3387,7 +3382,7 @@
       "weather": []
     },
     {
-      "id": 171,
+      "id": 248,
       "slug": "tyranitar",
       "name": "Tyranitar",
       "specialties": [
@@ -3407,7 +3402,7 @@
       "weather": []
     },
     {
-      "id": 172,
+      "id": 270,
       "slug": "lotad",
       "name": "Lotad",
       "specialties": [
@@ -3426,7 +3421,7 @@
       "weather": []
     },
     {
-      "id": 173,
+      "id": 271,
       "slug": "lombre",
       "name": "Lombre",
       "specialties": [
@@ -3445,7 +3440,7 @@
       "weather": []
     },
     {
-      "id": 174,
+      "id": 272,
       "slug": "ludicolo",
       "name": "Ludicolo",
       "specialties": [
@@ -3465,7 +3460,7 @@
       "weather": []
     },
     {
-      "id": 175,
+      "id": 303,
       "slug": "mawile",
       "name": "Mawile",
       "specialties": [
@@ -3479,7 +3474,7 @@
       "weather": []
     },
     {
-      "id": 176,
+      "id": 324,
       "slug": "torkoal",
       "name": "Torkoal",
       "specialties": [
@@ -3498,7 +3493,7 @@
       "weather": []
     },
     {
-      "id": 177,
+      "id": 401,
       "slug": "kricketot",
       "name": "Kricketot",
       "specialties": [
@@ -3517,7 +3512,7 @@
       "weather": []
     },
     {
-      "id": 178,
+      "id": 402,
       "slug": "kricketune",
       "name": "Kricketune",
       "specialties": [
@@ -3536,7 +3531,7 @@
       "weather": []
     },
     {
-      "id": 179,
+      "id": 441,
       "slug": "chatot",
       "name": "Chatot",
       "specialties": [
@@ -3550,7 +3545,7 @@
       "weather": []
     },
     {
-      "id": 180,
+      "id": 447,
       "slug": "riolu",
       "name": "Riolu",
       "specialties": [
@@ -3569,7 +3564,7 @@
       "weather": []
     },
     {
-      "id": 181,
+      "id": 448,
       "slug": "lucario",
       "name": "Lucario",
       "specialties": [
@@ -3582,7 +3577,7 @@
       "weather": []
     },
     {
-      "id": 182,
+      "id": 479,
       "slug": "rotom",
       "name": "Rotom",
       "specialties": [
@@ -3601,7 +3596,7 @@
       "weather": []
     },
     {
-      "id": 183,
+      "id": 636,
       "slug": "larvesta",
       "name": "Larvesta",
       "specialties": [
@@ -3615,7 +3610,7 @@
       "weather": []
     },
     {
-      "id": 184,
+      "id": 637,
       "slug": "volcarona",
       "name": "Volcarona",
       "specialties": [
@@ -3629,7 +3624,7 @@
       "weather": []
     },
     {
-      "id": 185,
+      "id": 722,
       "slug": "rowlet",
       "name": "Rowlet",
       "specialties": [
@@ -3642,7 +3637,7 @@
       "weather": []
     },
     {
-      "id": 186,
+      "id": 723,
       "slug": "dartrix",
       "name": "Dartrix",
       "specialties": [
@@ -3662,7 +3657,7 @@
       "weather": []
     },
     {
-      "id": 187,
+      "id": 724,
       "slug": "decidueye",
       "name": "Decidueye",
       "specialties": [
@@ -3676,7 +3671,7 @@
       "weather": []
     },
     {
-      "id": 188,
+      "id": 813,
       "slug": "scorbunny",
       "name": "Scorbunny",
       "specialties": [
@@ -3695,7 +3690,7 @@
       "weather": []
     },
     {
-      "id": 189,
+      "id": 814,
       "slug": "raboot",
       "name": "Raboot",
       "specialties": [
@@ -3708,7 +3703,7 @@
       "weather": []
     },
     {
-      "id": 190,
+      "id": 815,
       "slug": "cinderace",
       "name": "Cinderace",
       "specialties": [
@@ -3722,7 +3717,7 @@
       "weather": []
     },
     {
-      "id": 191,
+      "id": 819,
       "slug": "skwovet",
       "name": "Skwovet",
       "specialties": [
@@ -3742,7 +3737,7 @@
       "weather": []
     },
     {
-      "id": 192,
+      "id": 820,
       "slug": "greedent",
       "name": "Greedent",
       "specialties": [],
@@ -3759,7 +3754,7 @@
       "weather": []
     },
     {
-      "id": 193,
+      "id": 837,
       "slug": "rolycoly",
       "name": "Rolycoly",
       "specialties": [
@@ -3779,7 +3774,7 @@
       "weather": []
     },
     {
-      "id": 194,
+      "id": 838,
       "slug": "carkol",
       "name": "Carkol",
       "specialties": [
@@ -3799,7 +3794,7 @@
       "weather": []
     },
     {
-      "id": 195,
+      "id": 839,
       "slug": "coalossal",
       "name": "Coalossal",
       "specialties": [
@@ -3813,7 +3808,7 @@
       "weather": []
     },
     {
-      "id": 196,
+      "id": 848,
       "slug": "toxel",
       "name": "Toxel",
       "specialties": [
@@ -3826,7 +3821,7 @@
       "weather": []
     },
     {
-      "id": 197,
+      "id": 849,
       "slug": "toxtricity",
       "name": "Toxtricity",
       "specialties": [
@@ -3839,7 +3834,7 @@
       "weather": []
     },
     {
-      "id": 198,
+      "id": 926,
       "slug": "fidough",
       "name": "Fidough",
       "specialties": [
@@ -3858,7 +3853,7 @@
       "weather": []
     },
     {
-      "id": 199,
+      "id": 927,
       "slug": "dachsbun",
       "name": "Dachsbun",
       "specialties": [
@@ -3872,7 +3867,7 @@
       "weather": []
     },
     {
-      "id": 200,
+      "id": 935,
       "slug": "charcadet",
       "name": "Charcadet",
       "specialties": [
@@ -3885,7 +3880,7 @@
       "weather": []
     },
     {
-      "id": 201,
+      "id": 936,
       "slug": "armarouge",
       "name": "Armarouge",
       "specialties": [
@@ -3899,7 +3894,7 @@
       "weather": []
     },
     {
-      "id": 202,
+      "id": 937,
       "slug": "ceruledge",
       "name": "Ceruledge",
       "specialties": [
@@ -3913,7 +3908,7 @@
       "weather": []
     },
     {
-      "id": 203,
+      "id": 969,
       "slug": "glimmet",
       "name": "Glimmet",
       "specialties": [
@@ -3926,7 +3921,7 @@
       "weather": []
     },
     {
-      "id": 204,
+      "id": 970,
       "slug": "glimmora",
       "name": "Glimmora",
       "specialties": [
@@ -3939,7 +3934,7 @@
       "weather": []
     },
     {
-      "id": 205,
+      "id": 999,
       "slug": "gimmighoul",
       "name": "Gimmighoul",
       "specialties": [],
@@ -3950,7 +3945,7 @@
       "weather": []
     },
     {
-      "id": 206,
+      "id": 1000,
       "slug": "gholdengo",
       "name": "Gholdengo",
       "specialties": [],
@@ -3961,7 +3956,7 @@
       "weather": []
     },
     {
-      "id": 207,
+      "id": 37,
       "slug": "vulpix",
       "name": "Vulpix",
       "specialties": [
@@ -3980,7 +3975,7 @@
       "weather": []
     },
     {
-      "id": 208,
+      "id": 38,
       "slug": "ninetales",
       "name": "Ninetales",
       "specialties": [
@@ -3993,7 +3988,7 @@
       "weather": []
     },
     {
-      "id": 209,
+      "id": 60,
       "slug": "poliwag",
       "name": "Poliwag",
       "specialties": [
@@ -4006,7 +4001,7 @@
       "weather": []
     },
     {
-      "id": 210,
+      "id": 61,
       "slug": "poliwhirl",
       "name": "Poliwhirl",
       "specialties": [
@@ -4019,7 +4014,7 @@
       "weather": []
     },
     {
-      "id": 211,
+      "id": 62,
       "slug": "poliwrath",
       "name": "Poliwrath",
       "specialties": [
@@ -4039,7 +4034,7 @@
       "weather": []
     },
     {
-      "id": 212,
+      "id": 186,
       "slug": "politoed",
       "name": "Politoed",
       "specialties": [
@@ -4053,7 +4048,7 @@
       "weather": []
     },
     {
-      "id": 213,
+      "id": 63,
       "slug": "abra",
       "name": "Abra",
       "specialties": [
@@ -4066,7 +4061,7 @@
       "weather": []
     },
     {
-      "id": 214,
+      "id": 64,
       "slug": "kadabra",
       "name": "Kadabra",
       "specialties": [
@@ -4079,7 +4074,7 @@
       "weather": []
     },
     {
-      "id": 215,
+      "id": 65,
       "slug": "alakazam",
       "name": "Alakazam",
       "specialties": [
@@ -4099,7 +4094,7 @@
       "weather": []
     },
     {
-      "id": 216,
+      "id": 439,
       "slug": "mime-jr",
       "name": "Mime Jr.",
       "specialties": [
@@ -4112,7 +4107,7 @@
       "weather": []
     },
     {
-      "id": 217,
+      "id": 122,
       "slug": "mr-mime",
       "name": "Mr. Mime",
       "specialties": [
@@ -4126,7 +4121,7 @@
       "weather": []
     },
     {
-      "id": 218,
+      "id": 137,
       "slug": "porygon",
       "name": "Porygon",
       "specialties": [
@@ -4139,7 +4134,7 @@
       "weather": []
     },
     {
-      "id": 219,
+      "id": 233,
       "slug": "porygon2",
       "name": "Porygon2",
       "specialties": [
@@ -4152,7 +4147,7 @@
       "weather": []
     },
     {
-      "id": 220,
+      "id": 474,
       "slug": "porygon-z",
       "name": "Porygon-Z",
       "specialties": [],
@@ -4163,7 +4158,7 @@
       "weather": []
     },
     {
-      "id": 221,
+      "id": 147,
       "slug": "dratini",
       "name": "Dratini",
       "specialties": [
@@ -4182,7 +4177,7 @@
       "weather": []
     },
     {
-      "id": 222,
+      "id": 148,
       "slug": "dragonair",
       "name": "Dragonair",
       "specialties": [
@@ -4195,7 +4190,7 @@
       "weather": []
     },
     {
-      "id": 223,
+      "id": 149,
       "slug": "dragonite",
       "name": "Dragonite",
       "specialties": [
@@ -4215,7 +4210,7 @@
       "weather": []
     },
     {
-      "id": 224,
+      "id": 155,
       "slug": "cyndaquil",
       "name": "Cyndaquil",
       "specialties": [
@@ -4228,7 +4223,7 @@
       "weather": []
     },
     {
-      "id": 225,
+      "id": 156,
       "slug": "quilava",
       "name": "Quilava",
       "specialties": [
@@ -4241,7 +4236,7 @@
       "weather": []
     },
     {
-      "id": 226,
+      "id": 157,
       "slug": "typhlosion",
       "name": "Typhlosion",
       "specialties": [
@@ -4255,7 +4250,7 @@
       "weather": []
     },
     {
-      "id": 227,
+      "id": 200,
       "slug": "misdreavus",
       "name": "Misdreavus",
       "specialties": [
@@ -4274,7 +4269,7 @@
       "weather": []
     },
     {
-      "id": 228,
+      "id": 429,
       "slug": "mismagius",
       "name": "Mismagius",
       "specialties": [
@@ -4288,7 +4283,7 @@
       "weather": []
     },
     {
-      "id": 229,
+      "id": 203,
       "slug": "girafarig",
       "name": "Girafarig",
       "specialties": [
@@ -4301,7 +4296,7 @@
       "weather": []
     },
     {
-      "id": 230,
+      "id": 981,
       "slug": "farigiraf",
       "name": "Farigiraf",
       "specialties": [
@@ -4315,7 +4310,7 @@
       "weather": []
     },
     {
-      "id": 231,
+      "id": 280,
       "slug": "ralts",
       "name": "Ralts",
       "specialties": [
@@ -4328,7 +4323,7 @@
       "weather": []
     },
     {
-      "id": 232,
+      "id": 281,
       "slug": "kirlia",
       "name": "Kirlia",
       "specialties": [
@@ -4342,7 +4337,7 @@
       "weather": []
     },
     {
-      "id": 233,
+      "id": 282,
       "slug": "gardevoir",
       "name": "Gardevoir",
       "specialties": [
@@ -4362,7 +4357,7 @@
       "weather": []
     },
     {
-      "id": 234,
+      "id": 475,
       "slug": "gallade",
       "name": "Gallade",
       "specialties": [
@@ -4376,7 +4371,7 @@
       "weather": []
     },
     {
-      "id": 235,
+      "id": 311,
       "slug": "plusle",
       "name": "Plusle",
       "specialties": [
@@ -4389,7 +4384,7 @@
       "weather": []
     },
     {
-      "id": 236,
+      "id": 312,
       "slug": "minun",
       "name": "Minun",
       "specialties": [
@@ -4402,7 +4397,7 @@
       "weather": []
     },
     {
-      "id": 237,
+      "id": 328,
       "slug": "trapinch",
       "name": "Trapinch",
       "specialties": [
@@ -4422,7 +4417,7 @@
       "weather": []
     },
     {
-      "id": 238,
+      "id": 329,
       "slug": "vibrava",
       "name": "Vibrava",
       "specialties": [
@@ -4436,7 +4431,7 @@
       "weather": []
     },
     {
-      "id": 239,
+      "id": 330,
       "slug": "flygon",
       "name": "Flygon",
       "specialties": [
@@ -4450,7 +4445,7 @@
       "weather": []
     },
     {
-      "id": 240,
+      "id": 333,
       "slug": "swablu",
       "name": "Swablu",
       "specialties": [
@@ -4469,7 +4464,7 @@
       "weather": []
     },
     {
-      "id": 241,
+      "id": 334,
       "slug": "altaria",
       "name": "Altaria",
       "specialties": [
@@ -4489,7 +4484,7 @@
       "weather": []
     },
     {
-      "id": 242,
+      "id": 355,
       "slug": "duskull",
       "name": "Duskull",
       "specialties": [
@@ -4508,7 +4503,7 @@
       "weather": []
     },
     {
-      "id": 243,
+      "id": 356,
       "slug": "dusclops",
       "name": "Dusclops",
       "specialties": [
@@ -4521,7 +4516,7 @@
       "weather": []
     },
     {
-      "id": 244,
+      "id": 477,
       "slug": "dusknoir",
       "name": "Dusknoir",
       "specialties": [
@@ -4535,7 +4530,7 @@
       "weather": []
     },
     {
-      "id": 245,
+      "id": 374,
       "slug": "beldum",
       "name": "Beldum",
       "specialties": [
@@ -4548,7 +4543,7 @@
       "weather": []
     },
     {
-      "id": 246,
+      "id": 375,
       "slug": "metang",
       "name": "Metang",
       "specialties": [
@@ -4567,7 +4562,7 @@
       "weather": []
     },
     {
-      "id": 247,
+      "id": 376,
       "slug": "metagross",
       "name": "Metagross",
       "specialties": [
@@ -4581,7 +4576,7 @@
       "weather": []
     },
     {
-      "id": 248,
+      "id": 495,
       "slug": "snivy",
       "name": "Snivy",
       "specialties": [
@@ -4595,7 +4590,7 @@
       "weather": []
     },
     {
-      "id": 249,
+      "id": 496,
       "slug": "servine",
       "name": "Servine",
       "specialties": [
@@ -4609,7 +4604,7 @@
       "weather": []
     },
     {
-      "id": 250,
+      "id": 497,
       "slug": "serperior",
       "name": "Serperior",
       "specialties": [
@@ -4623,7 +4618,7 @@
       "weather": []
     },
     {
-      "id": 251,
+      "id": 656,
       "slug": "froakie",
       "name": "Froakie",
       "specialties": [
@@ -4642,7 +4637,7 @@
       "weather": []
     },
     {
-      "id": 252,
+      "id": 657,
       "slug": "frogadier",
       "name": "Frogadier",
       "specialties": [
@@ -4661,7 +4656,7 @@
       "weather": []
     },
     {
-      "id": 253,
+      "id": 658,
       "slug": "greninja",
       "name": "Greninja",
       "specialties": [
@@ -4675,7 +4670,7 @@
       "weather": []
     },
     {
-      "id": 254,
+      "id": 702,
       "slug": "dedenne",
       "name": "Dedenne",
       "specialties": [
@@ -4688,7 +4683,7 @@
       "weather": []
     },
     {
-      "id": 255,
+      "id": 714,
       "slug": "noibat",
       "name": "Noibat",
       "specialties": [
@@ -4701,7 +4696,7 @@
       "weather": []
     },
     {
-      "id": 256,
+      "id": 715,
       "slug": "noivern",
       "name": "Noivern",
       "specialties": [
@@ -4715,7 +4710,7 @@
       "weather": []
     },
     {
-      "id": 257,
+      "id": 821,
       "slug": "rookidee",
       "name": "Rookidee",
       "specialties": [
@@ -4734,7 +4729,7 @@
       "weather": []
     },
     {
-      "id": 258,
+      "id": 822,
       "slug": "corvisquire",
       "name": "Corvisquire",
       "specialties": [
@@ -4753,7 +4748,7 @@
       "weather": []
     },
     {
-      "id": 259,
+      "id": 823,
       "slug": "corviknight",
       "name": "Corviknight",
       "specialties": [
@@ -4767,7 +4762,7 @@
       "weather": []
     },
     {
-      "id": 260,
+      "id": 885,
       "slug": "dreepy",
       "name": "Dreepy",
       "specialties": [
@@ -4787,7 +4782,7 @@
       "weather": []
     },
     {
-      "id": 261,
+      "id": 886,
       "slug": "drakloak",
       "name": "Drakloak",
       "specialties": [
@@ -4807,7 +4802,7 @@
       "weather": []
     },
     {
-      "id": 262,
+      "id": 887,
       "slug": "dragapult",
       "name": "Dragapult",
       "specialties": [
@@ -4820,7 +4815,7 @@
       "weather": []
     },
     {
-      "id": 263,
+      "id": 906,
       "slug": "sprigatito",
       "name": "Sprigatito",
       "specialties": [
@@ -4839,7 +4834,7 @@
       "weather": []
     },
     {
-      "id": 264,
+      "id": 907,
       "slug": "floragato",
       "name": "Floragato",
       "specialties": [
@@ -4853,7 +4848,7 @@
       "weather": []
     },
     {
-      "id": 265,
+      "id": 908,
       "slug": "meowscarada",
       "name": "Meowscarada",
       "specialties": [
@@ -4866,7 +4861,7 @@
       "weather": []
     },
     {
-      "id": 266,
+      "id": 940,
       "slug": "wattrel",
       "name": "Wattrel",
       "specialties": [
@@ -4886,7 +4881,7 @@
       "weather": []
     },
     {
-      "id": 267,
+      "id": 941,
       "slug": "kilowattrel",
       "name": "Kilowattrel",
       "specialties": [
@@ -4900,7 +4895,7 @@
       "weather": []
     },
     {
-      "id": 268,
+      "id": 957,
       "slug": "tinkatink",
       "name": "Tinkatink",
       "specialties": [
@@ -4913,7 +4908,7 @@
       "weather": []
     },
     {
-      "id": 269,
+      "id": 958,
       "slug": "tinkatuff",
       "name": "Tinkatuff",
       "specialties": [
@@ -4926,7 +4921,7 @@
       "weather": []
     },
     {
-      "id": 270,
+      "id": 959,
       "slug": "tinkaton",
       "name": "Tinkaton",
       "specialties": [],
@@ -4943,7 +4938,7 @@
       "weather": []
     },
     {
-      "id": 271,
+      "id": 142,
       "slug": "aerodactyl",
       "name": "Aerodactyl",
       "specialties": [
@@ -4956,7 +4951,7 @@
       "weather": []
     },
     {
-      "id": 272,
+      "id": 408,
       "slug": "cranidos",
       "name": "Cranidos",
       "specialties": [
@@ -4969,7 +4964,7 @@
       "weather": []
     },
     {
-      "id": 273,
+      "id": 409,
       "slug": "rampardos",
       "name": "Rampardos",
       "specialties": [
@@ -4983,7 +4978,7 @@
       "weather": []
     },
     {
-      "id": 274,
+      "id": 410,
       "slug": "shieldon",
       "name": "Shieldon",
       "specialties": [
@@ -5002,7 +4997,7 @@
       "weather": []
     },
     {
-      "id": 275,
+      "id": 411,
       "slug": "bastiodon",
       "name": "Bastiodon",
       "specialties": [
@@ -5015,7 +5010,7 @@
       "weather": []
     },
     {
-      "id": 276,
+      "id": 696,
       "slug": "tyrunt",
       "name": "Tyrunt",
       "specialties": [
@@ -5029,7 +5024,7 @@
       "weather": []
     },
     {
-      "id": 277,
+      "id": 697,
       "slug": "tyrantrum",
       "name": "Tyrantrum",
       "specialties": [
@@ -5042,7 +5037,7 @@
       "weather": []
     },
     {
-      "id": 278,
+      "id": 698,
       "slug": "amaura",
       "name": "Amaura",
       "specialties": [
@@ -5056,7 +5051,7 @@
       "weather": []
     },
     {
-      "id": 279,
+      "id": 699,
       "slug": "aurorus",
       "name": "Aurorus",
       "specialties": [
@@ -5069,7 +5064,7 @@
       "weather": []
     },
     {
-      "id": 280,
+      "id": 133,
       "slug": "eevee",
       "name": "Eevee",
       "specialties": [
@@ -5088,7 +5083,7 @@
       "weather": []
     },
     {
-      "id": 281,
+      "id": 134,
       "slug": "vaporeon",
       "name": "Vaporeon",
       "specialties": [
@@ -5101,7 +5096,7 @@
       "weather": []
     },
     {
-      "id": 282,
+      "id": 135,
       "slug": "jolteon",
       "name": "Jolteon",
       "specialties": [
@@ -5114,7 +5109,7 @@
       "weather": []
     },
     {
-      "id": 283,
+      "id": 136,
       "slug": "flareon",
       "name": "Flareon",
       "specialties": [
@@ -5127,7 +5122,7 @@
       "weather": []
     },
     {
-      "id": 284,
+      "id": 196,
       "slug": "espeon",
       "name": "Espeon",
       "specialties": [
@@ -5140,7 +5135,7 @@
       "weather": []
     },
     {
-      "id": 285,
+      "id": 197,
       "slug": "umbreon",
       "name": "Umbreon",
       "specialties": [
@@ -5153,7 +5148,7 @@
       "weather": []
     },
     {
-      "id": 286,
+      "id": 470,
       "slug": "leafeon",
       "name": "Leafeon",
       "specialties": [
@@ -5166,7 +5161,7 @@
       "weather": []
     },
     {
-      "id": 287,
+      "id": 471,
       "slug": "glaceon",
       "name": "Glaceon",
       "specialties": [
@@ -5179,7 +5174,7 @@
       "weather": []
     },
     {
-      "id": 288,
+      "id": 700,
       "slug": "sylveon",
       "name": "Sylveon",
       "specialties": [
@@ -5192,7 +5187,7 @@
       "weather": []
     },
     {
-      "id": 289,
+      "id": 382,
       "slug": "kyogre",
       "name": "Kyogre",
       "specialties": [],
@@ -5209,7 +5204,7 @@
       "weather": []
     },
     {
-      "id": 290,
+      "id": 243,
       "slug": "raikou",
       "name": "Raikou",
       "specialties": [
@@ -5228,7 +5223,7 @@
       "weather": []
     },
     {
-      "id": 291,
+      "id": 244,
       "slug": "entei",
       "name": "Entei",
       "specialties": [
@@ -5241,7 +5236,7 @@
       "weather": []
     },
     {
-      "id": 292,
+      "id": 245,
       "slug": "suicune",
       "name": "Suicune",
       "specialties": [
@@ -5254,7 +5249,7 @@
       "weather": []
     },
     {
-      "id": 293,
+      "id": 721,
       "slug": "volcanion",
       "name": "Volcanion",
       "specialties": [
@@ -5273,7 +5268,7 @@
       "weather": []
     },
     {
-      "id": 294,
+      "id": 144,
       "slug": "articuno",
       "name": "Articuno",
       "specialties": [
@@ -5286,7 +5281,7 @@
       "weather": []
     },
     {
-      "id": 295,
+      "id": 145,
       "slug": "zapdos",
       "name": "Zapdos",
       "specialties": [
@@ -5299,7 +5294,7 @@
       "weather": []
     },
     {
-      "id": 296,
+      "id": 146,
       "slug": "moltres",
       "name": "Moltres",
       "specialties": [
@@ -5312,7 +5307,7 @@
       "weather": []
     },
     {
-      "id": 297,
+      "id": 249,
       "slug": "lugia",
       "name": "Lugia",
       "specialties": [],
@@ -5323,7 +5318,7 @@
       "weather": []
     },
     {
-      "id": 298,
+      "id": 250,
       "slug": "ho-oh",
       "name": "Ho-oh",
       "specialties": [],
@@ -5334,7 +5329,7 @@
       "weather": []
     },
     {
-      "id": 299,
+      "id": 150,
       "slug": "mewtwo",
       "name": "Mewtwo",
       "specialties": [
@@ -5353,7 +5348,7 @@
       "weather": []
     },
     {
-      "id": 300,
+      "id": 151,
       "slug": "mew",
       "name": "Mew",
       "specialties": [
