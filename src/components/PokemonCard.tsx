@@ -1,5 +1,5 @@
 import { getHabitatsForPokemon } from '../data/pokopia'
-import { formatPokemonId, labelForTime, labelForWeather } from '../lib/filters'
+import { formatPokemonId } from '../lib/filters'
 import { getBadgeStyle, getHabitatVisual, getPrimarySpecialty, getSpecialtyVisual, getSurfaceStyle } from '../lib/visuals'
 import type { PokemonEntry } from '../types'
 import { Badge } from './Badge'
@@ -15,6 +15,17 @@ export function PokemonCard({ entry, isSelected, onSelect }: PokemonCardProps) {
   const linkedHabitats = getHabitatsForPokemon(entry)
   const primarySpecialty = getPrimarySpecialty(entry)
   const habitatVisual = getHabitatVisual(entry.idealHabitat)
+  const habitatSummary = linkedHabitats.length
+    ? `${linkedHabitats
+        .slice(0, 2)
+        .map((habitat) => habitat.name)
+        .join(', ')}${linkedHabitats.length > 2 ? ` +${linkedHabitats.length - 2}` : ''}`
+    : entry.idealHabitat
+      ? `${entry.idealHabitat} affinity`
+      : 'No habitat links yet'
+  const favoriteSummary = entry.favorites.length
+    ? `${entry.favorites.slice(0, 2).join(', ')}${entry.favorites.length > 2 ? ` +${entry.favorites.length - 2}` : ''}`
+    : 'No favourite cues yet'
 
   return (
     <button
@@ -26,7 +37,7 @@ export function PokemonCard({ entry, isSelected, onSelect }: PokemonCardProps) {
     >
       <div className="entity-card__topline">
         <span className="entity-card__eyebrow">{formatPokemonId(entry.id)}</span>
-        <span className="entity-card__count">{linkedHabitats.length} habitat matches</span>
+        <span className="entity-card__count">{linkedHabitats.length} linked habitat{linkedHabitats.length === 1 ? '' : 's'}</span>
       </div>
 
       <div className="pokemon-card__shell">
@@ -42,9 +53,7 @@ export function PokemonCard({ entry, isSelected, onSelect }: PokemonCardProps) {
             ) : null}
           </div>
 
-          <p className="entity-card__summary">
-            {entry.idealHabitat ? `${entry.idealHabitat} habitat affinity` : 'No ideal habitat listed'}
-          </p>
+          <p className="entity-card__summary">Skill set first, habitat links second, favourites close behind.</p>
 
           <div className="badge-group">
             {entry.specialties.map((specialty) => {
@@ -58,20 +67,17 @@ export function PokemonCard({ entry, isSelected, onSelect }: PokemonCardProps) {
             })}
           </div>
 
-          {entry.favorites.length ? (
-            <p className="entity-card__subtext">
-              Favourites: {entry.favorites.slice(0, 2).join(', ')}
-              {entry.favorites.length > 2 ? ` +${entry.favorites.length - 2}` : ''}
-            </p>
-          ) : (
-            <p className="entity-card__subtext">No favourite cues listed yet.</p>
-          )}
+          <dl className="entity-card__facts">
+            <div>
+              <dt>Habitats</dt>
+              <dd>{habitatSummary}</dd>
+            </div>
+            <div>
+              <dt>Favourites</dt>
+              <dd>{favoriteSummary}</dd>
+            </div>
+          </dl>
         </div>
-      </div>
-
-      <div className="entity-card__meta">
-        <span>{entry.timeOfDay.map(labelForTime).join(', ') || 'Any time'}</span>
-        <span>{entry.weather.map(labelForWeather).join(', ') || 'Any weather'}</span>
       </div>
     </button>
   )

@@ -63,7 +63,7 @@ The app is a single React entrypoint with local module boundaries rather than a 
 - `src/components/*`
   - `PokemonCard.tsx` and `HabitatCard.tsx` render browse cards.
   - `DetailPanel.tsx` renders the focused entity view and cross-links between surfaces.
-  - `Badge.tsx`, `FilterSelect.tsx`, and `StatTile.tsx` provide reusable UI primitives.
+  - `Badge.tsx` and `FilterSelect.tsx` provide reusable UI primitives.
 - `src/index.css`
   - Contains the visual system, layout rules, and responsive behavior.
 
