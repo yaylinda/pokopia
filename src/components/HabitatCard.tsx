@@ -10,11 +10,15 @@ interface HabitatCardProps {
 
 export function HabitatCard({ entry, isSelected, onSelect }: HabitatCardProps) {
   const linkedPokemon = getPokemonForHabitat(entry)
-  const areaMark = (entry.area ?? '??')
-    .split(/\s+/)
-    .slice(0, 2)
-    .map((part) => part[0]?.toUpperCase() ?? '')
-    .join('')
+  const setupSummary = entry.setup.length
+    ? `${entry.setup.slice(0, 2).join(', ')}${entry.setup.length > 2 ? ` +${entry.setup.length - 2}` : ''}`
+    : 'No setup notes yet'
+  const residentSummary = linkedPokemon.length
+    ? `${linkedPokemon
+        .slice(0, 2)
+        .map((pokemon) => pokemon.name)
+        .join(', ')}${linkedPokemon.length > 2 ? ` +${linkedPokemon.length - 2}` : ''}`
+    : 'No linked residents yet'
 
   return (
     <button
@@ -28,29 +32,33 @@ export function HabitatCard({ entry, isSelected, onSelect }: HabitatCardProps) {
         <span className="entity-card__count">{linkedPokemon.length} linked Pokemon</span>
       </div>
 
-      <div className="habitat-card__crest" aria-hidden="true">
-        <span>{areaMark}</span>
-      </div>
-
       <div className="entity-card__heading">
         <h3>{entry.name}</h3>
+        <Badge compact tone="wave">
+          {entry.area ?? 'Area unknown'}
+        </Badge>
       </div>
 
       <p className="entity-card__summary">{entry.details}</p>
 
       <div className="badge-group">
-        <Badge tone="wave">{entry.area ?? 'Area unknown'}</Badge>
-        {entry.setup.slice(0, 2).map((item) => (
+        {entry.setup.slice(0, 3).map((item) => (
           <Badge key={item} tone="leaf">
             {item}
           </Badge>
         ))}
       </div>
 
-      <div className="entity-card__meta">
-        <span>{entry.setup.length} setup notes</span>
-        <span>{linkedPokemon.slice(0, 2).map((pokemon) => pokemon.name).join(', ') || 'No resident links yet'}</span>
-      </div>
+      <dl className="entity-card__facts">
+        <div>
+          <dt>Recipe</dt>
+          <dd>{setupSummary}</dd>
+        </div>
+        <div>
+          <dt>Residents</dt>
+          <dd>{residentSummary}</dd>
+        </div>
+      </dl>
     </button>
   )
 }

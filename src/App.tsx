@@ -3,9 +3,6 @@ import { FilterSelect } from './components/FilterSelect'
 import { DetailPanel } from './components/DetailPanel'
 import { HabitatCard } from './components/HabitatCard'
 import { PokemonCard } from './components/PokemonCard'
-import { Badge } from './components/Badge'
-import { PokemonArtwork } from './components/PokemonArtwork'
-import { StatTile } from './components/StatTile'
 import {
   areaOptions,
   favoriteOptions,
@@ -22,7 +19,6 @@ import {
   weatherOptions,
 } from './data/pokopia'
 import { ALL_FILTER, formatDateLabel, matchesHabitatFilters, matchesPokemonFilters } from './lib/filters'
-import { getBadgeStyle, getHabitatVisual, getSpecialtyVisual, getSurfaceStyle } from './lib/visuals'
 import type { HabitatFilters, PokemonFilters, ViewMode } from './types'
 
 const defaultPokemonFilters: PokemonFilters = {
@@ -37,29 +33,19 @@ const defaultHabitatFilters: HabitatFilters = {
   area: ALL_FILTER,
 }
 
-const specialtyLeader = specialtyOptions
-  .map((specialty) => ({
-    specialty,
-    count: pokemonEntries.filter((entry) => entry.specialties.includes(specialty)).length,
-  }))
-  .sort((left, right) => right.count - left.count)[0]
+function countActivePokemonFilters(filters: PokemonFilters) {
+  return (
+    Number(filters.specialty !== ALL_FILTER) +
+    Number(filters.idealHabitat !== ALL_FILTER) +
+    Number(filters.time !== ALL_FILTER) +
+    Number(filters.weather !== ALL_FILTER) +
+    Number(filters.favorite !== ALL_FILTER)
+  )
+}
 
-const areaLeader = areaOptions
-  .map((area) => ({
-    area,
-    count: habitatEntries.filter((entry) => entry.area === area).length,
-  }))
-  .sort((left, right) => right.count - left.count)[0]
-
-const multiHabitatPokemonCount = pokemonEntries.filter((entry) => entry.habitatIds.length > 1).length
-
-const specialtySpotlights = specialtyOptions
-  .map((specialty) => ({
-    specialty,
-    count: pokemonEntries.filter((entry) => entry.specialties.includes(specialty)).length,
-  }))
-  .sort((left, right) => right.count - left.count)
-  .slice(0, 4)
+function countActiveHabitatFilters(filters: HabitatFilters) {
+  return Number(filters.area !== ALL_FILTER)
+}
 
 function getInitialView() {
   const params = new URLSearchParams(window.location.search)
@@ -132,6 +118,7 @@ export default function App() {
   const [habitatFilters, setHabitatFilters] = useState(defaultHabitatFilters)
   const [selectedPokemonId, setSelectedPokemonId] = useState<number | null>(getInitialPokemonId)
   const [selectedHabitatId, setSelectedHabitatId] = useState<number | null>(getInitialHabitatId)
+  const [filtersOpen, setFiltersOpen] = useState(false)
 
   const deferredQuery = useDeferredValue(searchQuery)
 
@@ -196,6 +183,7 @@ export default function App() {
       setSearchQuery('')
       setPokemonFilters(defaultPokemonFilters)
       setHabitatFilters(defaultHabitatFilters)
+      setFiltersOpen(false)
     })
   }
 
@@ -204,238 +192,167 @@ export default function App() {
       ? `${filteredPokemon.length} Pokemon`
       : `${filteredHabitats.length} habitats`
 
-  const heroPokemon = selectedPokemon ?? filteredPokemon[0] ?? pokemonEntries[0] ?? null
-  const heroHabitat = selectedHabitat ?? filteredHabitats[0] ?? habitatEntries[0] ?? null
+  const activeFilterCount =
+    activeView === 'pokemon' ? countActivePokemonFilters(pokemonFilters) : countActiveHabitatFilters(habitatFilters)
+  const hasActiveRefinements = activeFilterCount > 0 || searchQuery.trim().length > 0
+  const refinementStatusLabel = activeFilterCount
+    ? `${activeFilterCount} active filter${activeFilterCount === 1 ? '' : 's'}${searchQuery.trim() ? ' plus search' : ''}`
+    : searchQuery.trim()
+      ? 'Search active'
+      : 'Search stays visible; refinements stay secondary.'
 
   return (
     <div className="app-shell">
       <header className="hero">
-        <div className="hero__copy">
-          <p className="eyebrow">Pokopia field companion</p>
-          <h1>Fast Pokémon lookup for Pokopia.</h1>
-          <p className="hero__lead">
-            A cleaner companion for checking specialties, habitat affinity, weather windows, and favorite cues while you play.
-          </p>
-
-          <div className="hero__meta">
-            <span>300 Pokémon</span>
-            <span>174 habitats</span>
+        <div className="hero__utility">
+          <p className="eyebrow">Pokopia field guide</p>
+          <div className="hero__meta" aria-label="Guide summary">
+            <span>{pokemonEntries.length} Pokemon</span>
+            <span>{habitatEntries.length} habitats</span>
             <span>Updated {formatDateLabel(pokopiaData.generatedAt)}</span>
           </div>
-
-          <div className="hero__actions">
-            <Badge onClick={() => selectPokemon(1)} tone="sun">
-              Pokédex
-            </Badge>
-            <Badge onClick={() => selectHabitat(1)} tone="wave">
-              Habitat Dex
-            </Badge>
-            <Badge
-              onClick={() => {
-                startTransition(() => {
-                  setActiveView('pokemon')
-                  setPokemonFilters((current) => ({ ...current, time: '🌙' }))
-                })
-              }}
-              tone="night"
-            >
-              Night team
-            </Badge>
-          </div>
-
-          <div className="hero__spotlights">
-            {specialtySpotlights.map(({ specialty }) => {
-              const visual = getSpecialtyVisual(specialty)
-
-              return (
-                <Badge compact icon={visual.icon} key={specialty} style={getBadgeStyle(visual)}>
-                  {specialty}
-                </Badge>
-              )
-            })}
-          </div>
-
-          <a className="hero__source" href="https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/htmlview?pli=1#gid=0">
-            View source sheet
-          </a>
         </div>
 
-        <div className="hero__feature">
-          {heroPokemon ? (
-            <article className="hero-mon" style={getSurfaceStyle(getSpecialtyVisual(heroPokemon.specialties[0] ?? ''))}>
-              <div className="hero-mon__art">
-                <PokemonArtwork entry={heroPokemon} size="hero" />
-              </div>
-
-              <div className="hero-mon__copy">
-                <p className="hero-mon__eyebrow">Current spotlight</p>
-                <h2>{heroPokemon.name}</h2>
-                <p>
-                  {heroPokemon.idealHabitat
-                    ? `${heroPokemon.idealHabitat} affinity with ${heroPokemon.specialties.join(' + ')} utility.`
-                    : `${heroPokemon.specialties.join(' + ')} utility with no habitat affinity recorded yet.`}
-                </p>
-
-                <div className="badge-group">
-                  {heroPokemon.specialties.slice(0, 3).map((specialty) => {
-                    const visual = getSpecialtyVisual(specialty)
-
-                    return (
-                      <Badge compact icon={visual.icon} key={specialty} style={getBadgeStyle(visual)}>
-                        {specialty}
-                      </Badge>
-                    )
-                  })}
-                  {heroPokemon.idealHabitat ? (
-                    <Badge
-                      compact
-                      icon={getHabitatVisual(heroPokemon.idealHabitat).icon}
-                      style={getBadgeStyle(getHabitatVisual(heroPokemon.idealHabitat))}
-                    >
-                      {heroPokemon.idealHabitat}
-                    </Badge>
-                  ) : null}
-                </div>
-
-                <div className="hero-mon__notes">
-                  <span>{heroPokemon.favorites.slice(0, 2).join(' · ') || 'No favourite cues listed'}</span>
-                  <span>{heroPokemon.habitatIds.length} linked habitats</span>
-                </div>
-              </div>
-            </article>
-          ) : null}
-
-          <div className="hero__stat-grid">
-            <StatTile caption="Sheet-backed entries" label="Pokemon" value={pokemonEntries.length.toString()} />
-            <StatTile caption="Buildable habitat recipes" label="Habitats" value={habitatEntries.length.toString()} />
-            <StatTile
-              caption="Pokemon mapped to multiple habitats"
-              label="Multi-habitat"
-              value={multiHabitatPokemonCount.toString()}
-            />
-            <StatTile caption="Last local sync" label="Updated" value={formatDateLabel(pokopiaData.generatedAt)} />
+        <div className="hero__headline">
+          <div>
+            <h1>Pocket lookup for Pokopia</h1>
+            <p className="hero__lead">
+              Search by name, skill, habitat, or favourite cue without digging through the sheet.
+            </p>
           </div>
 
-          <div className="hero__insights">
-            <article>
-              <p>Most common specialty</p>
-              <strong>{specialtyLeader ? `${specialtyLeader.specialty} (${specialtyLeader.count})` : 'Unknown'}</strong>
-            </article>
-            <article>
-              <p>Largest habitat region</p>
-              <strong>{areaLeader ? `${areaLeader.area} (${areaLeader.count})` : 'Unknown'}</strong>
-            </article>
-            <article>
-              <p>Selected habitat</p>
-              <strong>{heroHabitat ? heroHabitat.name : 'No habitat selected'}</strong>
-            </article>
+          <div className="hero__aside">
+            <p className="hero__hint">Built for fast in-session comparison, not spreadsheet browsing.</p>
+            <a className="hero__source" href="https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/htmlview?pli=1#gid=0">
+              Open source sheet
+            </a>
           </div>
         </div>
       </header>
 
       <main className="workspace">
-        <section className="control-panel">
-          <div className="view-switch" role="tablist" aria-label="Browse mode">
-            <button
-              aria-selected={activeView === 'pokemon'}
-              className={activeView === 'pokemon' ? 'is-active' : ''}
-              onClick={() => setActiveView('pokemon')}
-              role="tab"
-              type="button"
-            >
-              Pokemon
-            </button>
-            <button
-              aria-selected={activeView === 'habitats'}
-              className={activeView === 'habitats' ? 'is-active' : ''}
-              onClick={() => setActiveView('habitats')}
-              role="tab"
-              type="button"
-            >
-              Habitat Dex
-            </button>
-          </div>
-
-          <div className="control-panel__search">
-            <label htmlFor="search-query">Search the guide</label>
-            <input
-              id="search-query"
-              onChange={(event) => {
-                const nextValue = event.target.value
-                startTransition(() => setSearchQuery(nextValue))
-              }}
-              placeholder={
-                activeView === 'pokemon'
-                  ? 'Try Bulbasaur, Grow, Bright, rainy, Pretty flowers...'
-                  : 'Try Tall grass, Bleak Beach, plated food, Pikachu...'
-              }
-              type="search"
-              value={searchQuery}
-            />
-          </div>
-
-          <div className="control-panel__filters">
-            {activeView === 'pokemon' ? (
-              <>
-                <FilterSelect
-                  label="Specialty"
-                  onChange={(value) => setPokemonFilters((current) => ({ ...current, specialty: value }))}
-                  options={[ALL_FILTER, ...specialtyOptions]}
-                  value={pokemonFilters.specialty}
-                />
-                <FilterSelect
-                  label="Ideal habitat"
-                  onChange={(value) => setPokemonFilters((current) => ({ ...current, idealHabitat: value }))}
-                  options={[ALL_FILTER, ...idealHabitatOptions]}
-                  value={pokemonFilters.idealHabitat}
-                />
-                <FilterSelect
-                  label="Time"
-                  onChange={(value) => setPokemonFilters((current) => ({ ...current, time: value }))}
-                  options={[ALL_FILTER, ...timeOptions]}
-                  value={pokemonFilters.time}
-                />
-                <FilterSelect
-                  label="Weather"
-                  onChange={(value) => setPokemonFilters((current) => ({ ...current, weather: value }))}
-                  options={[ALL_FILTER, ...weatherOptions]}
-                  value={pokemonFilters.weather}
-                />
-                <FilterSelect
-                  label="Favourite"
-                  onChange={(value) => setPokemonFilters((current) => ({ ...current, favorite: value }))}
-                  options={[ALL_FILTER, ...favoriteOptions]}
-                  value={pokemonFilters.favorite}
-                />
-              </>
-            ) : (
-              <FilterSelect
-                label="Area"
-                onChange={(value) => setHabitatFilters((current) => ({ ...current, area: value }))}
-                options={[ALL_FILTER, ...areaOptions]}
-                value={habitatFilters.area}
-              />
-            )}
-          </div>
-
-          <div className="control-panel__footer">
-            <strong>{resultLabel}</strong>
-            <button onClick={resetFilters} type="button">
-              Reset filters
-            </button>
-          </div>
-        </section>
-
         <div className="workspace__content">
           <section className="results-panel">
+            <div className="results-toolbar">
+              <div className="results-toolbar__top">
+                <div className="view-switch" role="tablist" aria-label="Browse mode">
+                  <button
+                    aria-selected={activeView === 'pokemon'}
+                    className={activeView === 'pokemon' ? 'is-active' : ''}
+                    onClick={() => setActiveView('pokemon')}
+                    role="tab"
+                    type="button"
+                  >
+                    Pokedex
+                  </button>
+                  <button
+                    aria-selected={activeView === 'habitats'}
+                    className={activeView === 'habitats' ? 'is-active' : ''}
+                    onClick={() => setActiveView('habitats')}
+                    role="tab"
+                    type="button"
+                  >
+                    Habitat Dex
+                  </button>
+                </div>
+
+                <div className="results-toolbar__actions">
+                  <button className="results-toolbar__toggle" onClick={() => setFiltersOpen((current) => !current)} type="button">
+                    {filtersOpen ? 'Hide refinements' : 'Refine results'}
+                    {activeFilterCount ? <span>{activeFilterCount}</span> : null}
+                  </button>
+
+                  {hasActiveRefinements ? (
+                    <button className="results-toolbar__reset" onClick={resetFilters} type="button">
+                      Clear search and filters
+                    </button>
+                  ) : null}
+                </div>
+              </div>
+
+              <div className="results-toolbar__search">
+                <label htmlFor="search-query">{activeView === 'pokemon' ? 'Find a Pokemon' : 'Find a habitat'}</label>
+                <input
+                  id="search-query"
+                  onChange={(event) => {
+                    const nextValue = event.target.value
+                    startTransition(() => setSearchQuery(nextValue))
+                  }}
+                  placeholder={
+                    activeView === 'pokemon'
+                      ? 'Bulbasaur, Grow, Bright, rainy, Pretty flowers...'
+                      : 'Tall grass, Bleak Beach, plated food, Pikachu...'
+                  }
+                  type="search"
+                  value={searchQuery}
+                />
+              </div>
+
+              {filtersOpen ? (
+                <div className="results-toolbar__filters">
+                  {activeView === 'pokemon' ? (
+                    <>
+                      <FilterSelect
+                        label="Specialty"
+                        onChange={(value) => setPokemonFilters((current) => ({ ...current, specialty: value }))}
+                        options={[ALL_FILTER, ...specialtyOptions]}
+                        value={pokemonFilters.specialty}
+                      />
+                      <FilterSelect
+                        label="Ideal habitat"
+                        onChange={(value) => setPokemonFilters((current) => ({ ...current, idealHabitat: value }))}
+                        options={[ALL_FILTER, ...idealHabitatOptions]}
+                        value={pokemonFilters.idealHabitat}
+                      />
+                      <FilterSelect
+                        label="Time"
+                        onChange={(value) => setPokemonFilters((current) => ({ ...current, time: value }))}
+                        options={[ALL_FILTER, ...timeOptions]}
+                        value={pokemonFilters.time}
+                      />
+                      <FilterSelect
+                        label="Weather"
+                        onChange={(value) => setPokemonFilters((current) => ({ ...current, weather: value }))}
+                        options={[ALL_FILTER, ...weatherOptions]}
+                        value={pokemonFilters.weather}
+                      />
+                      <FilterSelect
+                        label="Favourite cue"
+                        onChange={(value) => setPokemonFilters((current) => ({ ...current, favorite: value }))}
+                        options={[ALL_FILTER, ...favoriteOptions]}
+                        value={pokemonFilters.favorite}
+                      />
+                    </>
+                  ) : (
+                    <FilterSelect
+                      label="Area"
+                      onChange={(value) => setHabitatFilters((current) => ({ ...current, area: value }))}
+                      options={[ALL_FILTER, ...areaOptions]}
+                      value={habitatFilters.area}
+                    />
+                  )}
+                </div>
+              ) : null}
+            </div>
+
             <div className="results-panel__header">
               <div>
-                <p className="eyebrow">{activeView === 'pokemon' ? 'Pokemon board' : 'Habitat board'}</p>
+                <p className="eyebrow">{activeView === 'pokemon' ? 'Pokemon index' : 'Habitat index'}</p>
                 <h2>
                   {activeView === 'pokemon'
-                    ? 'Compare roles, conditions, and habitat affinity at a glance.'
-                    : 'Scan build recipes and the Pokemon they attract.'}
+                    ? 'Compare Pokemon fast'
+                    : 'Scan habitat recipes fast'}
                 </h2>
+                <p className="results-panel__lead">
+                  {activeView === 'pokemon'
+                    ? 'Cards surface the skill set, habitat links, and favourite cues first.'
+                    : 'Cards keep the recipe, area, and linked residents visible at a glance.'}
+                </p>
+              </div>
+
+              <div className="results-panel__summary">
+                <strong>Showing {resultLabel}</strong>
+                <p>{refinementStatusLabel}</p>
               </div>
             </div>
 
