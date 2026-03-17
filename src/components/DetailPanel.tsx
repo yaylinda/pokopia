@@ -27,7 +27,7 @@ export function DetailPanel({
           <p className="detail-panel__eyebrow">Selection</p>
           <h2>Choose a Pokemon to inspect its habitat recipe</h2>
           <p className="detail-panel__lead">
-            Each card shows specialties, timing, and the habitats linked from the source sheet.
+            Each card shows specialties, timing, and the habitats linked from the repo dataset.
           </p>
         </aside>
       )
@@ -137,7 +137,7 @@ export function DetailPanel({
                 </button>
               ))
             ) : (
-              <div className="detail-list__empty">No habitat links were provided in the sheet.</div>
+              <div className="detail-list__empty">No habitat links are recorded for this Pokemon yet.</div>
             )}
           </div>
         </section>

@@ -209,7 +209,7 @@ export default function App() {
           <div className="hero__meta" aria-label="Guide summary">
             <span>{pokemonEntries.length} Pokemon</span>
             <span>{habitatEntries.length} habitats</span>
-            <span>Updated {formatDateLabel(pokopiaData.generatedAt)}</span>
+            <span>Updated {formatDateLabel(pokopiaData.updatedAt)}</span>
           </div>
         </div>
 
@@ -217,15 +217,12 @@ export default function App() {
           <div>
             <h1>Pocket lookup for Pokopia</h1>
             <p className="hero__lead">
-              Search by name, skill, habitat, or favourite cue without digging through the sheet.
+              Search by name, skill, habitat, or favourite cue without digging through raw data files.
             </p>
           </div>
 
           <div className="hero__aside">
-            <p className="hero__hint">Built for fast in-session comparison, not spreadsheet browsing.</p>
-            <a className="hero__source" href="https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/htmlview?pli=1#gid=0">
-              Open source sheet
-            </a>
+            <p className="hero__hint">Built for fast in-session comparison, with the data stored directly in this repo.</p>
           </div>
         </div>
       </header>
