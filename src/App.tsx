@@ -59,7 +59,7 @@ const specialtySpotlights = specialtyOptions
     count: pokemonEntries.filter((entry) => entry.specialties.includes(specialty)).length,
   }))
   .sort((left, right) => right.count - left.count)
-  .slice(0, 6)
+  .slice(0, 4)
 
 function getInitialView() {
   const params = new URLSearchParams(window.location.search)
@@ -211,19 +211,24 @@ export default function App() {
     <div className="app-shell">
       <header className="hero">
         <div className="hero__copy">
-          <p className="eyebrow">Pokopia companion guide</p>
-          <h1>Compare specialties, habitat fits, and favorite cues without fighting the spreadsheet.</h1>
+          <p className="eyebrow">Pokopia field companion</p>
+          <h1>Fast Pokémon lookup for Pokopia.</h1>
           <p className="hero__lead">
-            Reimagined as a light-first field guide with local Pokemon art, game-flavored category chips, and fast cross-links
-            between the Pokedex and Habitat Dex.
+            A cleaner companion for checking specialties, habitat affinity, weather windows, and favorite cues while you play.
           </p>
+
+          <div className="hero__meta">
+            <span>300 Pokémon</span>
+            <span>174 habitats</span>
+            <span>Updated {formatDateLabel(pokopiaData.generatedAt)}</span>
+          </div>
 
           <div className="hero__actions">
             <Badge onClick={() => selectPokemon(1)} tone="sun">
-              Open the Pokedex
+              Pokédex
             </Badge>
             <Badge onClick={() => selectHabitat(1)} tone="wave">
-              Browse habitats
+              Habitat Dex
             </Badge>
             <Badge
               onClick={() => {
@@ -234,21 +239,25 @@ export default function App() {
               }}
               tone="night"
             >
-              Night scouting
+              Night team
             </Badge>
           </div>
 
           <div className="hero__spotlights">
-            {specialtySpotlights.map(({ count, specialty }) => {
+            {specialtySpotlights.map(({ specialty }) => {
               const visual = getSpecialtyVisual(specialty)
 
               return (
                 <Badge compact icon={visual.icon} key={specialty} style={getBadgeStyle(visual)}>
-                  {specialty} {count}
+                  {specialty}
                 </Badge>
               )
             })}
           </div>
+
+          <a className="hero__source" href="https://docs.google.com/spreadsheets/u/0/d/1OqpRuZyPQpYg5nYvku9JwQMxjMFzhc1ER5Bqbt1tnvA/htmlview?pli=1#gid=0">
+            View source sheet
+          </a>
         </div>
 
         <div className="hero__feature">
@@ -317,7 +326,7 @@ export default function App() {
               <strong>{areaLeader ? `${areaLeader.area} (${areaLeader.count})` : 'Unknown'}</strong>
             </article>
             <article>
-              <p>Current habitat focus</p>
+              <p>Selected habitat</p>
               <strong>{heroHabitat ? heroHabitat.name : 'No habitat selected'}</strong>
             </article>
           </div>
